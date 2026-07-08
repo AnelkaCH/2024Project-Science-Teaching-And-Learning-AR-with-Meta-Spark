@@ -56,7 +56,11 @@ This was my first real experience building something that had to work in the phy
 <img width="510" height="286" alt="H2OReaction" src="https://github.com/user-attachments/assets/b2845ba8-c027-447b-88cb-cb4182bf8c62" />
 
 
-_Biology module screenshots were not captured before the platform shutdown._
+### Biology
+
+<img width="450" height="800" alt="WhatsApp Image 2026-07-08 at 11 13 07 PM" src="https://github.com/user-attachments/assets/6bfda154-7ef7-4faa-aff0-b93a0563a1cd" />
+<img width="450" height="800" alt="WhatsApp Image 2026-07-08 at 11 13 07 PM (1)" src="https://github.com/user-attachments/assets/4e4104c6-259d-4dee-9af7-40e94b7c3c63" />
+
 
 
 ## Team
