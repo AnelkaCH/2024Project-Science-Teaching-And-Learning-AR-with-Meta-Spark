@@ -1,4 +1,4 @@
-# STELAR (Science Teaching and Learning AR) 🔬
+# STeLAR (Science Teaching and Learning AR) 🔬
 
 An augmented reality application built with Meta Spark Studio that turns printed science materials into interactive 3D learning experiences. Developed as a team project for the **UNTAR Meta Spark AR Competition 2024**, where it placed **1st**.
 
@@ -6,7 +6,7 @@ An augmented reality application built with Meta Spark Studio that turns printed
 
 ## What It Does
 
-STELAR uses image tracking to detect printed science pictures and overlays subject-specific 3D content on top of them in real time through a phone camera.
+STeLAR uses image tracking to detect printed science pictures and overlays subject-specific 3D content on top of them in real time through a phone camera.
 
 **Physics = Planet Gravity Simulation**
 When a physics-related picture is scanned, a simulation of planetary gravity appears. Objects move according to gravitational pull, giving students a visual sense of how mass and distance affect gravity in the solar system.
