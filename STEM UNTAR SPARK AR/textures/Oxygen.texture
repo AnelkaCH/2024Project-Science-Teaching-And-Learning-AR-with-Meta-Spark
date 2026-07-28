@@ -1,0 +1,37 @@
+{
+  "modelName": "texture",
+  "name": "Oxygen",
+  "identifier": "texture:1054-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "a116c7d807bef46b93c953f0e37285c6",
+  "assetLocator": "textures/Oxygen.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "folder": "",
+  "hasOfflineMipmaps": false,
+  "height": 225,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 225,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "a116c7d807bef46b93c953f0e37285c6",
+      "colorCount": 7213,
+      "detectedAlphaChannel": "no_alpha",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 7.995187357411254,
+      "pixelsHigh": 225,
+      "pixelsWide": 225
+    }
+  ]
+}

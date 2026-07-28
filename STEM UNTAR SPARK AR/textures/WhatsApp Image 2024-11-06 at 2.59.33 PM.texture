@@ -1,0 +1,37 @@
+{
+  "modelName": "texture",
+  "name": "WhatsApp Image 2024-11-06 at 2.59.33 PM",
+  "identifier": "texture:69928-e8f4ace4-082a-49c8-b944-7da9fe4c43c2",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "1c8ec075ccf785ad50dbbc916838e334",
+  "assetLocator": "textures/WhatsApp Image 2024-11-06 at 2.59.33 PM.jpeg",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "folder": "",
+  "hasOfflineMipmaps": false,
+  "height": 1024,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 931,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "1c8ec075ccf785ad50dbbc916838e334",
+      "colorCount": 75785,
+      "detectedAlphaChannel": "no_alpha",
+      "detectedOriginalFormat": "jpeg",
+      "entropyOfDistribution": 11.858161347440879,
+      "pixelsHigh": 1024,
+      "pixelsWide": 931
+    }
+  ]
+}

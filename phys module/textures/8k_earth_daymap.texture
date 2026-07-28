@@ -1,0 +1,37 @@
+{
+  "modelName": "texture",
+  "name": "8k_earth_daymap",
+  "identifier": "texture:36152-f4c450d0-c0eb-40a4-bc5e-c256697a70d2",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "c1e168dbe67f165a8da3d54080474ade",
+  "assetLocator": "textures/8k_earth_daymap.jpeg",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "folder": "",
+  "hasOfflineMipmaps": false,
+  "height": 512,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 1024,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "c1e168dbe67f165a8da3d54080474ade",
+      "colorCount": 47773,
+      "detectedAlphaChannel": "no_alpha",
+      "detectedOriginalFormat": "jpeg",
+      "entropyOfDistribution": 7.276500310951836,
+      "pixelsHigh": 512,
+      "pixelsWide": 1024
+    }
+  ]
+}

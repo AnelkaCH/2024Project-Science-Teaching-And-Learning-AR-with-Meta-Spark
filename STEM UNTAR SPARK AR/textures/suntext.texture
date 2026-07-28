@@ -1,0 +1,37 @@
+{
+  "modelName": "texture",
+  "name": "suntext",
+  "identifier": "texture:37150-03d57b0b-175a-4080-bd57-f9556a596734",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "2020ad14dc2be67564e60c4f53d9116e",
+  "assetLocator": "textures/suntext.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "folder": "",
+  "hasOfflineMipmaps": false,
+  "height": 159,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 318,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "2020ad14dc2be67564e60c4f53d9116e",
+      "colorCount": 256,
+      "detectedAlphaChannel": "no_alpha",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 7.617293059591561,
+      "pixelsHigh": 159,
+      "pixelsWide": 318
+    }
+  ]
+}

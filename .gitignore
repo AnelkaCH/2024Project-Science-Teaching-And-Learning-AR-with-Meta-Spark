@@ -1,0 +1,64 @@
+# ===== OS files =====
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ===== Editor / IDE files =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.history/
+
+# ===== Logs =====
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ===== Environment / secrets =====
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*.pfx
+*.p12
+secrets.json
+credentials.json
+config.local.*
+
+# ===== Dependency folders =====
+node_modules/
+venv/
+env/
+__pycache__/
+*.pyc
+
+# ===== Build output =====
+dist/
+build/
+out/
+*.egg-info/
+
+# ===== Archives / backups =====
+*.zip
+*.rar
+*.7z
+*.bak
+*.tmp
+*.old
+
+# ===== Large binary / asset caches =====
+*.psd
+*.ai
+*.blend
+*.fbx
+*.obj

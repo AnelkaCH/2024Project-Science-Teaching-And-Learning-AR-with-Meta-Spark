@@ -1,0 +1,37 @@
+{
+  "modelName": "texture",
+  "name": "Hydrogen",
+  "identifier": "texture:1050-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "20760284f1ef5ff40f8df1136bcf6677",
+  "assetLocator": "textures/Hydrogen.jpg",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "folder": "",
+  "hasOfflineMipmaps": false,
+  "height": 225,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 225,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "20760284f1ef5ff40f8df1136bcf6677",
+      "colorCount": 7685,
+      "detectedAlphaChannel": "no_alpha",
+      "detectedOriginalFormat": "jpeg",
+      "entropyOfDistribution": 8.40252758241801,
+      "pixelsHigh": 225,
+      "pixelsWide": 225
+    }
+  ]
+}

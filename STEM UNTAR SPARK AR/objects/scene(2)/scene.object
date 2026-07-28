@@ -1,0 +1,955 @@
+{
+  "modelName": "master3_d_object_model",
+  "name": "1 - Hydrogen",
+  "identifier": "master3_d_object_model:2233-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+  "sourceIdentifier": "asset_collection_model:2269-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+  "animationMask": {
+    "position": false,
+    "rotation": false,
+    "scale": false
+  },
+  "cameraVisibility": "back|front",
+  "depth": 216.22071838378906,
+  "globalScaleFactor": 0.008209765933480051,
+  "height": 243.6123046875,
+  "hidden": false,
+  "hitTestingEnabled": false,
+  "layerIdentifier": "layer0",
+  "outputVisibility": "preview|capture",
+  "physicsEnabled": false,
+  "tags": [],
+  "transform": {
+    "rx": -1.570796251296997,
+    "ry": 0,
+    "rz": 0,
+    "sx": 1,
+    "sy": 0.9999999403953552,
+    "sz": 0.9999999403953552,
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "width": 105.3736572265625,
+  "children": [
+    {
+      "modelName": "sceneObject",
+      "name": "Idrogeno2.abc.fbx",
+      "identifier": "sceneObject:2161-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+      "animationMask": {
+        "position": false,
+        "rotation": false,
+        "scale": false
+      },
+      "cameraVisibility": "back|front",
+      "hidden": false,
+      "hitTestingEnabled": false,
+      "layerIdentifier": "layer0",
+      "outputVisibility": "preview|capture",
+      "physicsEnabled": false,
+      "shapeColor": "0xff808080",
+      "shapeType": 0,
+      "tags": [],
+      "transform": {
+        "rx": 1.5707963705062866,
+        "ry": 0,
+        "rz": 0,
+        "sx": 1,
+        "sy": 1,
+        "sz": 1,
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "children": [
+        {
+          "modelName": "sceneObject",
+          "name": "Object_2",
+          "identifier": "sceneObject:2163-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "animationMask": {
+            "position": false,
+            "rotation": false,
+            "scale": false
+          },
+          "cameraVisibility": "back|front",
+          "hidden": false,
+          "hitTestingEnabled": false,
+          "layerIdentifier": "layer0",
+          "outputVisibility": "preview|capture",
+          "physicsEnabled": false,
+          "shapeColor": "0xff808080",
+          "shapeType": 0,
+          "tags": [],
+          "transform": {
+            "rx": 0,
+            "ry": 0,
+            "rz": 0,
+            "sx": 1,
+            "sy": 1,
+            "sz": 1,
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "children": [
+            {
+              "modelName": "sceneObject",
+              "name": "RootNode",
+              "identifier": "sceneObject:2165-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+              "animationMask": {
+                "position": false,
+                "rotation": false,
+                "scale": false
+              },
+              "cameraVisibility": "back|front",
+              "hidden": false,
+              "hitTestingEnabled": false,
+              "layerIdentifier": "layer0",
+              "outputVisibility": "preview|capture",
+              "physicsEnabled": false,
+              "shapeColor": "0xff808080",
+              "shapeType": 0,
+              "tags": [],
+              "transform": {
+                "rx": 0,
+                "ry": 0,
+                "rz": 0,
+                "sx": 1,
+                "sy": 1,
+                "sz": 1,
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "children": [
+                {
+                  "modelName": "sceneObject",
+                  "name": "CerchioG",
+                  "identifier": "sceneObject:2167-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+                  "animationMask": {
+                    "position": true,
+                    "rotation": true,
+                    "scale": true
+                  },
+                  "cameraVisibility": "back|front",
+                  "hidden": false,
+                  "hitTestingEnabled": false,
+                  "layerIdentifier": "layer0",
+                  "outputVisibility": "preview|capture",
+                  "physicsEnabled": false,
+                  "shapeColor": "0xff808080",
+                  "shapeType": 0,
+                  "tags": [],
+                  "transform": {
+                    "rx": 0,
+                    "ry": 0,
+                    "rz": 0.8003875017166138,
+                    "sx": 0.9999999403953552,
+                    "sy": 0.9999999403953552,
+                    "sz": 1,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  },
+                  "children": [
+                    {
+                      "modelName": "sceneObject",
+                      "name": "BOIII",
+                      "identifier": "sceneObject:2169-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+                      "animationMask": {
+                        "position": false,
+                        "rotation": false,
+                        "scale": false
+                      },
+                      "cameraVisibility": "back|front",
+                      "hidden": false,
+                      "hitTestingEnabled": false,
+                      "layerIdentifier": "layer0",
+                      "outputVisibility": "preview|capture",
+                      "physicsEnabled": false,
+                      "shapeColor": "0xff808080",
+                      "shapeType": 0,
+                      "tags": [],
+                      "transform": {
+                        "rx": 0,
+                        "ry": 0,
+                        "rz": -0.8003875017166138,
+                        "sx": 0.9999999403953552,
+                        "sy": 0.9999999403953552,
+                        "sz": 1,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      },
+                      "children": [
+                        {
+                          "modelName": "sceneObject",
+                          "name": "Elettroni",
+                          "identifier": "sceneObject:2171-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+                          "animationMask": {
+                            "position": false,
+                            "rotation": false,
+                            "scale": false
+                          },
+                          "cameraVisibility": "back|front",
+                          "hidden": false,
+                          "hitTestingEnabled": false,
+                          "layerIdentifier": "layer0",
+                          "outputVisibility": "preview|capture",
+                          "physicsEnabled": false,
+                          "shapeColor": "0xff808080",
+                          "shapeType": 0,
+                          "tags": [],
+                          "transform": {
+                            "rx": 0,
+                            "ry": 0,
+                            "rz": 0,
+                            "sx": 1,
+                            "sy": 1,
+                            "sz": 1,
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                          },
+                          "children": [
+                            {
+                              "modelName": "sceneObject",
+                              "name": "E1___INTERNI",
+                              "identifier": "sceneObject:2173-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+                              "animationMask": {
+                                "position": true,
+                                "rotation": true,
+                                "scale": true
+                              },
+                              "cameraVisibility": "back|front",
+                              "hidden": false,
+                              "hitTestingEnabled": false,
+                              "layerIdentifier": "layer0",
+                              "outputVisibility": "preview|capture",
+                              "physicsEnabled": false,
+                              "shapeColor": "0xff808080",
+                              "shapeType": 0,
+                              "tags": [],
+                              "transform": {
+                                "rx": -7.84451920519349E-34,
+                                "ry": 0.1897517591714859,
+                                "rz": 1.25512351364134E-32,
+                                "sx": 1,
+                                "sy": 1,
+                                "sz": 1,
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                              },
+                              "children": [
+                                {
+                                  "modelName": "sceneObject",
+                                  "name": "Orbita_2",
+                                  "identifier": "sceneObject:2175-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+                                  "animationMask": {
+                                    "position": true,
+                                    "rotation": true,
+                                    "scale": true
+                                  },
+                                  "cameraVisibility": "back|front",
+                                  "hidden": false,
+                                  "hitTestingEnabled": false,
+                                  "layerIdentifier": "layer0",
+                                  "outputVisibility": "preview|capture",
+                                  "physicsEnabled": false,
+                                  "shapeColor": "0xff808080",
+                                  "shapeType": 0,
+                                  "tags": [],
+                                  "transform": {
+                                    "rx": 1.8358615636825562,
+                                    "ry": 0.1248999685049057,
+                                    "rz": 1.6047083139419556,
+                                    "sx": 0.9999999403953552,
+                                    "sy": 0.9999999403953552,
+                                    "sz": 0.9999998807907104,
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 0
+                                  },
+                                  "children": [
+                                    {
+                                      "modelName": "mesh",
+                                      "name": "Orbita_2__0",
+                                      "identifier": "mesh:2177-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+                                      "animationMask": {
+                                        "position": false,
+                                        "rotation": false,
+                                        "scale": false
+                                      },
+                                      "cameraVisibility": "back|front",
+                                      "castShadow": false,
+                                      "hidden": false,
+                                      "hitTestingEnabled": false,
+                                      "layerIdentifier": "layer0",
+                                      "nodeName": "Orbita_2__0",
+                                      "numberOfFaces": 4128,
+                                      "outputVisibility": "preview|capture",
+                                      "physicsEnabled": false,
+                                      "prefabIdentifier": "gltf:2181-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+                                      "receiveShadow": false,
+                                      "renderPass": "main_scene",
+                                      "tags": [],
+                                      "transform": {
+                                        "rx": 0,
+                                        "ry": 0,
+                                        "rz": 0,
+                                        "sx": 1,
+                                        "sy": 1,
+                                        "sz": 1,
+                                        "x": 0,
+                                        "y": 0,
+                                        "z": 0
+                                      },
+                                      "useEmbeddedBlendshapes": false,
+                                      "children": [
+                                        {
+                                          "modelName": "surfaces",
+                                          "identifier": "surfaces:2179-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+                                          "children": [
+                                            {
+                                              "modelName": "surface",
+                                              "name": "surface0",
+                                              "identifier": "surface:2184-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+                                              "isMaterialIdentifierEnabled": true,
+                                              "materialIdentifier": "dependent_metallic_roughness_p_b_r_material_model:2155-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+                                              "surfaceGroupIdentifier": "2185-d726a892-1cb5-4682-b2e2-bea371dc1a80"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "modelName": "sceneObject",
+                              "name": "E2",
+                              "identifier": "sceneObject:2187-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+                              "animationMask": {
+                                "position": false,
+                                "rotation": false,
+                                "scale": false
+                              },
+                              "cameraVisibility": "back|front",
+                              "hidden": false,
+                              "hitTestingEnabled": false,
+                              "layerIdentifier": "layer0",
+                              "outputVisibility": "preview|capture",
+                              "physicsEnabled": false,
+                              "shapeColor": "0xff808080",
+                              "shapeType": 0,
+                              "tags": [],
+                              "transform": {
+                                "rx": -2.6799681186676025,
+                                "ry": -0.6168498396873474,
+                                "rz": 0.8210373520851135,
+                                "sx": 1,
+                                "sy": 1,
+                                "sz": 1,
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                              },
+                              "children": [
+                                {
+                                  "modelName": "sceneObject",
+                                  "name": "Orbita_1",
+                                  "identifier": "sceneObject:2189-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+                                  "animationMask": {
+                                    "position": true,
+                                    "rotation": true,
+                                    "scale": true
+                                  },
+                                  "cameraVisibility": "back|front",
+                                  "hidden": false,
+                                  "hitTestingEnabled": false,
+                                  "layerIdentifier": "layer0",
+                                  "outputVisibility": "preview|capture",
+                                  "physicsEnabled": false,
+                                  "shapeColor": "0xff808080",
+                                  "shapeType": 0,
+                                  "tags": [],
+                                  "transform": {
+                                    "rx": -5.5511144613812927E-17,
+                                    "ry": -2.220446049250313E-16,
+                                    "rz": -1.3571680784225464,
+                                    "sx": 1,
+                                    "sy": 1,
+                                    "sz": 1,
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 0
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "modelName": "sceneObject",
+                              "name": "E3",
+                              "identifier": "sceneObject:2191-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+                              "animationMask": {
+                                "position": true,
+                                "rotation": true,
+                                "scale": true
+                              },
+                              "cameraVisibility": "back|front",
+                              "hidden": false,
+                              "hitTestingEnabled": false,
+                              "layerIdentifier": "layer0",
+                              "outputVisibility": "preview|capture",
+                              "physicsEnabled": false,
+                              "shapeColor": "0xff808080",
+                              "shapeType": 0,
+                              "tags": [],
+                              "transform": {
+                                "rx": -7.84451920519349E-34,
+                                "ry": 0.1897517591714859,
+                                "rz": 1.25512351364134E-32,
+                                "sx": 1,
+                                "sy": 1,
+                                "sz": 1,
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                              },
+                              "children": [
+                                {
+                                  "modelName": "sceneObject",
+                                  "name": "Orbita_5",
+                                  "identifier": "sceneObject:2193-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+                                  "animationMask": {
+                                    "position": true,
+                                    "rotation": true,
+                                    "scale": true
+                                  },
+                                  "cameraVisibility": "back|front",
+                                  "hidden": false,
+                                  "hitTestingEnabled": false,
+                                  "layerIdentifier": "layer0",
+                                  "outputVisibility": "preview|capture",
+                                  "physicsEnabled": false,
+                                  "shapeColor": "0xff808080",
+                                  "shapeType": 0,
+                                  "tags": [],
+                                  "transform": {
+                                    "rx": -0.9440889954566956,
+                                    "ry": -1.06626558303833,
+                                    "rz": -2.108917236328125,
+                                    "sx": 1,
+                                    "sy": 0.9999999403953552,
+                                    "sz": 1,
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 0
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "modelName": "sceneObject",
+                              "name": "E4",
+                              "identifier": "sceneObject:2195-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+                              "animationMask": {
+                                "position": true,
+                                "rotation": true,
+                                "scale": true
+                              },
+                              "cameraVisibility": "back|front",
+                              "hidden": false,
+                              "hitTestingEnabled": false,
+                              "layerIdentifier": "layer0",
+                              "outputVisibility": "preview|capture",
+                              "physicsEnabled": false,
+                              "shapeColor": "0xff808080",
+                              "shapeType": 0,
+                              "tags": [],
+                              "transform": {
+                                "rx": -7.84451920519349E-34,
+                                "ry": 0.1897517591714859,
+                                "rz": 1.25512351364134E-32,
+                                "sx": 1,
+                                "sy": 1,
+                                "sz": 1,
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                              },
+                              "children": [
+                                {
+                                  "modelName": "sceneObject",
+                                  "name": "Orbita",
+                                  "identifier": "sceneObject:2197-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+                                  "animationMask": {
+                                    "position": true,
+                                    "rotation": true,
+                                    "scale": true
+                                  },
+                                  "cameraVisibility": "back|front",
+                                  "hidden": false,
+                                  "hitTestingEnabled": false,
+                                  "layerIdentifier": "layer0",
+                                  "outputVisibility": "preview|capture",
+                                  "physicsEnabled": false,
+                                  "shapeColor": "0xff808080",
+                                  "shapeType": 0,
+                                  "tags": [],
+                                  "transform": {
+                                    "rx": -0.3274925649166107,
+                                    "ry": 0.03198261931538582,
+                                    "rz": 0.09384990483522415,
+                                    "sx": 0.9999999403953552,
+                                    "sy": 1,
+                                    "sz": 1,
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 0
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "modelName": "sceneObject",
+                              "name": "E5",
+                              "identifier": "sceneObject:2199-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+                              "animationMask": {
+                                "position": true,
+                                "rotation": true,
+                                "scale": true
+                              },
+                              "cameraVisibility": "back|front",
+                              "hidden": false,
+                              "hitTestingEnabled": false,
+                              "layerIdentifier": "layer0",
+                              "outputVisibility": "preview|capture",
+                              "physicsEnabled": false,
+                              "shapeColor": "0xff808080",
+                              "shapeType": 0,
+                              "tags": [],
+                              "transform": {
+                                "rx": 0.7227036356925964,
+                                "ry": 0.3457431495189667,
+                                "rz": 0.13713347911834717,
+                                "sx": 1,
+                                "sy": 1,
+                                "sz": 1,
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                              },
+                              "children": [
+                                {
+                                  "modelName": "sceneObject",
+                                  "name": "Orbita_3",
+                                  "identifier": "sceneObject:2201-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+                                  "animationMask": {
+                                    "position": true,
+                                    "rotation": true,
+                                    "scale": true
+                                  },
+                                  "cameraVisibility": "back|front",
+                                  "hidden": false,
+                                  "hitTestingEnabled": false,
+                                  "layerIdentifier": "layer0",
+                                  "outputVisibility": "preview|capture",
+                                  "physicsEnabled": false,
+                                  "shapeColor": "0xff808080",
+                                  "shapeType": 0,
+                                  "tags": [],
+                                  "transform": {
+                                    "rx": -0.3274925649166107,
+                                    "ry": 0.03198261931538582,
+                                    "rz": 0.09384990483522415,
+                                    "sx": 0.9999999403953552,
+                                    "sy": 1,
+                                    "sz": 1,
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 0
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "modelName": "sceneObject",
+                              "name": "E6",
+                              "identifier": "sceneObject:2203-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+                              "animationMask": {
+                                "position": true,
+                                "rotation": true,
+                                "scale": true
+                              },
+                              "cameraVisibility": "back|front",
+                              "hidden": false,
+                              "hitTestingEnabled": false,
+                              "layerIdentifier": "layer0",
+                              "outputVisibility": "preview|capture",
+                              "physicsEnabled": false,
+                              "shapeColor": "0xff808080",
+                              "shapeType": 0,
+                              "tags": [],
+                              "transform": {
+                                "rx": -1.646767258644104,
+                                "ry": 0.19149523973464966,
+                                "rz": 0.02268296107649803,
+                                "sx": 1,
+                                "sy": 1,
+                                "sz": 1,
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                              },
+                              "children": [
+                                {
+                                  "modelName": "sceneObject",
+                                  "name": "Orbita_4",
+                                  "identifier": "sceneObject:2205-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+                                  "animationMask": {
+                                    "position": true,
+                                    "rotation": true,
+                                    "scale": true
+                                  },
+                                  "cameraVisibility": "back|front",
+                                  "hidden": false,
+                                  "hitTestingEnabled": false,
+                                  "layerIdentifier": "layer0",
+                                  "outputVisibility": "preview|capture",
+                                  "physicsEnabled": false,
+                                  "shapeColor": "0xff808080",
+                                  "shapeType": 0,
+                                  "tags": [],
+                                  "transform": {
+                                    "rx": -0.3274925649166107,
+                                    "ry": 0.03198261931538582,
+                                    "rz": 0.09384990483522415,
+                                    "sx": 0.9999999403953552,
+                                    "sy": 1,
+                                    "sz": 1,
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 0
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "modelName": "sceneObject",
+                              "name": "E7___ESTERNI",
+                              "identifier": "sceneObject:2207-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+                              "animationMask": {
+                                "position": true,
+                                "rotation": true,
+                                "scale": true
+                              },
+                              "cameraVisibility": "back|front",
+                              "hidden": false,
+                              "hitTestingEnabled": false,
+                              "layerIdentifier": "layer0",
+                              "outputVisibility": "preview|capture",
+                              "physicsEnabled": false,
+                              "shapeColor": "0xff808080",
+                              "shapeType": 0,
+                              "tags": [],
+                              "transform": {
+                                "rx": -0.36694416403770447,
+                                "ry": 0.043462011963129044,
+                                "rz": 0.05710861086845398,
+                                "sx": 1,
+                                "sy": 1,
+                                "sz": 1,
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                              },
+                              "children": [
+                                {
+                                  "modelName": "sceneObject",
+                                  "name": "Orbita_6",
+                                  "identifier": "sceneObject:2209-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+                                  "animationMask": {
+                                    "position": true,
+                                    "rotation": true,
+                                    "scale": true
+                                  },
+                                  "cameraVisibility": "back|front",
+                                  "hidden": false,
+                                  "hitTestingEnabled": false,
+                                  "layerIdentifier": "layer0",
+                                  "outputVisibility": "preview|capture",
+                                  "physicsEnabled": false,
+                                  "shapeColor": "0xff808080",
+                                  "shapeType": 0,
+                                  "tags": [],
+                                  "transform": {
+                                    "rx": -0.3274925649166107,
+                                    "ry": 0.03198261931538582,
+                                    "rz": 0.09384990483522415,
+                                    "sx": 0.9999999403953552,
+                                    "sy": 1,
+                                    "sz": 1,
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 0
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "modelName": "sceneObject",
+                          "name": "Forza",
+                          "identifier": "sceneObject:2211-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+                          "animationMask": {
+                            "position": false,
+                            "rotation": false,
+                            "scale": false
+                          },
+                          "cameraVisibility": "back|front",
+                          "hidden": false,
+                          "hitTestingEnabled": false,
+                          "layerIdentifier": "layer0",
+                          "outputVisibility": "preview|capture",
+                          "physicsEnabled": false,
+                          "shapeColor": "0xff808080",
+                          "shapeType": 0,
+                          "tags": [],
+                          "transform": {
+                            "rx": 0,
+                            "ry": 0,
+                            "rz": -0.18221236765384674,
+                            "sx": 1,
+                            "sy": 1,
+                            "sz": 1,
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                          },
+                          "children": [
+                            {
+                              "modelName": "sceneObject",
+                              "name": "Nucleo",
+                              "identifier": "sceneObject:2213-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+                              "animationMask": {
+                                "position": false,
+                                "rotation": false,
+                                "scale": false
+                              },
+                              "cameraVisibility": "back|front",
+                              "hidden": false,
+                              "hitTestingEnabled": false,
+                              "layerIdentifier": "layer0",
+                              "outputVisibility": "preview|capture",
+                              "physicsEnabled": false,
+                              "shapeColor": "0xff808080",
+                              "shapeType": 0,
+                              "tags": [],
+                              "transform": {
+                                "rx": 1.36289381980896,
+                                "ry": 0.28172382712364197,
+                                "rz": -2.442392110824585,
+                                "sx": 1,
+                                "sy": 1,
+                                "sz": 0.9999999403953552,
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                              },
+                              "children": [
+                                {
+                                  "modelName": "sceneObject",
+                                  "name": "Protoni",
+                                  "identifier": "sceneObject:2215-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+                                  "animationMask": {
+                                    "position": false,
+                                    "rotation": false,
+                                    "scale": false
+                                  },
+                                  "cameraVisibility": "back|front",
+                                  "hidden": false,
+                                  "hitTestingEnabled": false,
+                                  "layerIdentifier": "layer0",
+                                  "outputVisibility": "preview|capture",
+                                  "physicsEnabled": false,
+                                  "shapeColor": "0xff808080",
+                                  "shapeType": 0,
+                                  "tags": [],
+                                  "transform": {
+                                    "rx": 2.067790383364354E-15,
+                                    "ry": -4.968248458714049E-15,
+                                    "rz": 2.1237165927886963,
+                                    "sx": 1,
+                                    "sy": 1,
+                                    "sz": 1,
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 0
+                                  },
+                                  "children": [
+                                    {
+                                      "modelName": "sceneObject",
+                                      "name": "Protoni_2",
+                                      "identifier": "sceneObject:2217-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+                                      "animationMask": {
+                                        "position": false,
+                                        "rotation": false,
+                                        "scale": false
+                                      },
+                                      "cameraVisibility": "back|front",
+                                      "hidden": false,
+                                      "hitTestingEnabled": false,
+                                      "layerIdentifier": "layer0",
+                                      "outputVisibility": "preview|capture",
+                                      "physicsEnabled": false,
+                                      "shapeColor": "0xff808080",
+                                      "shapeType": 0,
+                                      "tags": [],
+                                      "transform": {
+                                        "rx": -3.469446951953614E-17,
+                                        "ry": -5.551115123125783E-17,
+                                        "rz": 1.3877787807814457E-16,
+                                        "sx": 1,
+                                        "sy": 1,
+                                        "sz": 1,
+                                        "x": 0,
+                                        "y": 0,
+                                        "z": 0
+                                      },
+                                      "children": [
+                                        {
+                                          "modelName": "mesh",
+                                          "name": "Protoni_2_Nuovo.1_0",
+                                          "identifier": "mesh:2219-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+                                          "animationMask": {
+                                            "position": false,
+                                            "rotation": false,
+                                            "scale": false
+                                          },
+                                          "cameraVisibility": "back|front",
+                                          "castShadow": false,
+                                          "hidden": false,
+                                          "hitTestingEnabled": false,
+                                          "layerIdentifier": "layer0",
+                                          "nodeName": "Protoni_2_Nuovo.1_0",
+                                          "numberOfFaces": 528,
+                                          "outputVisibility": "preview|capture",
+                                          "physicsEnabled": false,
+                                          "prefabIdentifier": "gltf:2223-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+                                          "receiveShadow": false,
+                                          "renderPass": "main_scene",
+                                          "tags": [],
+                                          "transform": {
+                                            "rx": 0,
+                                            "ry": 0,
+                                            "rz": 0,
+                                            "sx": 1,
+                                            "sy": 1,
+                                            "sz": 1,
+                                            "x": 0,
+                                            "y": 0,
+                                            "z": 0
+                                          },
+                                          "useEmbeddedBlendshapes": false,
+                                          "children": [
+                                            {
+                                              "modelName": "surfaces",
+                                              "identifier": "surfaces:2221-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+                                              "children": [
+                                                {
+                                                  "modelName": "surface",
+                                                  "name": "surface0",
+                                                  "identifier": "surface:2226-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+                                                  "isMaterialIdentifierEnabled": true,
+                                                  "materialIdentifier": "dependent_metallic_roughness_p_b_r_material_model:2157-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+                                                  "surfaceGroupIdentifier": "2227-d726a892-1cb5-4682-b2e2-bea371dc1a80"
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "modelName": "sceneObject",
+                                  "name": "Neutroni",
+                                  "identifier": "sceneObject:2229-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+                                  "animationMask": {
+                                    "position": false,
+                                    "rotation": false,
+                                    "scale": false
+                                  },
+                                  "cameraVisibility": "back|front",
+                                  "hidden": false,
+                                  "hitTestingEnabled": false,
+                                  "layerIdentifier": "layer0",
+                                  "outputVisibility": "preview|capture",
+                                  "physicsEnabled": false,
+                                  "shapeColor": "0xff808080",
+                                  "shapeType": 0,
+                                  "tags": [],
+                                  "transform": {
+                                    "rx": 2.067790383364354E-15,
+                                    "ry": -4.968248458714049E-15,
+                                    "rz": 2.1237165927886963,
+                                    "sx": 1,
+                                    "sy": 1,
+                                    "sz": 1,
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 0
+                                  },
+                                  "children": [
+                                    {
+                                      "modelName": "sceneObject",
+                                      "name": "Sfera",
+                                      "identifier": "sceneObject:2231-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+                                      "animationMask": {
+                                        "position": false,
+                                        "rotation": false,
+                                        "scale": false
+                                      },
+                                      "cameraVisibility": "back|front",
+                                      "hidden": false,
+                                      "hitTestingEnabled": false,
+                                      "layerIdentifier": "layer0",
+                                      "outputVisibility": "preview|capture",
+                                      "physicsEnabled": false,
+                                      "shapeColor": "0xff808080",
+                                      "shapeType": 0,
+                                      "tags": [],
+                                      "transform": {
+                                        "rx": 0.0001194072247017175,
+                                        "ry": 0.00004232594801578671,
+                                        "rz": -0.00016082027286756784,
+                                        "sx": 1,
+                                        "sy": 1,
+                                        "sz": 1,
+                                        "x": 0.010505634360015392,
+                                        "y": 0.16091743111610413,
+                                        "z": -0.012058302760124207
+                                      }
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

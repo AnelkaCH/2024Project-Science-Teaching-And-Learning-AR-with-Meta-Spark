@@ -1,0 +1,37 @@
+{
+  "modelName": "texture",
+  "name": "planetcard",
+  "identifier": "texture:74391-03d57b0b-175a-4080-bd57-f9556a596734",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "c0c60bf5a742e8537b9c5722236ccc64",
+  "assetLocator": "textures/planetcard.jpeg",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "folder": "",
+  "hasOfflineMipmaps": false,
+  "height": 1024,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 704,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "c0c60bf5a742e8537b9c5722236ccc64",
+      "colorCount": 47904,
+      "detectedAlphaChannel": "no_alpha",
+      "detectedOriginalFormat": "jpeg",
+      "entropyOfDistribution": 9.428123097479032,
+      "pixelsHigh": 1024,
+      "pixelsWide": 704
+    }
+  ]
+}

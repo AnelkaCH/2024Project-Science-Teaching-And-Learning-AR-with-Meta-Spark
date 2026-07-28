@@ -1,0 +1,86 @@
+{
+  "modelName": "master3_d_object_model",
+  "name": "Octahedron",
+  "identifier": "master3_d_object_model:135789-c1d9e32b-333c-42a2-8423-4281a9001401",
+  "sourceIdentifier": "asset_collection_model:135793-c1d9e32b-333c-42a2-8423-4281a9001401",
+  "animationMask": {
+    "position": false,
+    "rotation": false,
+    "scale": false
+  },
+  "cameraVisibility": "back|front",
+  "depth": 0.043099530041217804,
+  "globalScaleFactor": 1,
+  "height": 0.043099530041217804,
+  "hidden": false,
+  "hitTestingEnabled": false,
+  "layerIdentifier": "layer0",
+  "outputVisibility": "preview|capture",
+  "physicsEnabled": false,
+  "tags": [],
+  "transform": {
+    "rx": 0,
+    "ry": 0,
+    "rz": 0,
+    "sx": 1,
+    "sy": 1,
+    "sz": 1,
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "width": 0.043099530041217804,
+  "children": [
+    {
+      "modelName": "mesh",
+      "name": "Octahedron",
+      "identifier": "mesh:135779-c1d9e32b-333c-42a2-8423-4281a9001401",
+      "animationMask": {
+        "position": false,
+        "rotation": false,
+        "scale": false
+      },
+      "cameraVisibility": "back|front",
+      "castShadow": false,
+      "hidden": false,
+      "hitTestingEnabled": false,
+      "layerIdentifier": "layer0",
+      "nodeName": "Octahedron",
+      "numberOfFaces": 8,
+      "outputVisibility": "preview|capture",
+      "physicsEnabled": false,
+      "prefabIdentifier": "gltf:135783-c1d9e32b-333c-42a2-8423-4281a9001401",
+      "receiveShadow": false,
+      "renderPass": "main_scene",
+      "tags": [],
+      "transform": {
+        "rx": 0,
+        "ry": 0,
+        "rz": 0,
+        "sx": 1,
+        "sy": 1,
+        "sz": 1,
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "useEmbeddedBlendshapes": false,
+      "children": [
+        {
+          "modelName": "surfaces",
+          "identifier": "surfaces:135781-c1d9e32b-333c-42a2-8423-4281a9001401",
+          "children": [
+            {
+              "modelName": "surface",
+              "name": "surface0",
+              "identifier": "surface:135786-c1d9e32b-333c-42a2-8423-4281a9001401",
+              "isMaterialIdentifierEnabled": true,
+              "materialIdentifier": "dependent_metallic_roughness_p_b_r_material_model:135777-c1d9e32b-333c-42a2-8423-4281a9001401",
+              "surfaceGroupIdentifier": "135787-c1d9e32b-333c-42a2-8423-4281a9001401"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

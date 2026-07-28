@@ -1,0 +1,86 @@
+{
+  "modelName": "master3_d_object_model",
+  "name": "Sphere",
+  "identifier": "master3_d_object_model:45195-25977542-dd2a-4cbd-b843-cef6832f1bbb",
+  "sourceIdentifier": "asset_collection_model:45199-25977542-dd2a-4cbd-b843-cef6832f1bbb",
+  "animationMask": {
+    "position": false,
+    "rotation": false,
+    "scale": false
+  },
+  "cameraVisibility": "back|front",
+  "depth": 0.04743248224258423,
+  "globalScaleFactor": 1,
+  "height": 0.049873463809490204,
+  "hidden": false,
+  "hitTestingEnabled": false,
+  "layerIdentifier": "layer0",
+  "outputVisibility": "preview|capture",
+  "physicsEnabled": false,
+  "tags": [],
+  "transform": {
+    "rx": 0,
+    "ry": 0,
+    "rz": 0,
+    "sx": 1,
+    "sy": 1,
+    "sz": 1,
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "width": 0.049873463809490204,
+  "children": [
+    {
+      "modelName": "mesh",
+      "name": "Sphere",
+      "identifier": "mesh:45185-25977542-dd2a-4cbd-b843-cef6832f1bbb",
+      "animationMask": {
+        "position": false,
+        "rotation": false,
+        "scale": false
+      },
+      "cameraVisibility": "back|front",
+      "castShadow": false,
+      "hidden": false,
+      "hitTestingEnabled": false,
+      "layerIdentifier": "layer0",
+      "nodeName": "Sphere",
+      "numberOfFaces": 200,
+      "outputVisibility": "preview|capture",
+      "physicsEnabled": false,
+      "prefabIdentifier": "gltf:45189-25977542-dd2a-4cbd-b843-cef6832f1bbb",
+      "receiveShadow": false,
+      "renderPass": "main_scene",
+      "tags": [],
+      "transform": {
+        "rx": 0,
+        "ry": 0,
+        "rz": 0,
+        "sx": 1,
+        "sy": 1,
+        "sz": 1,
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "useEmbeddedBlendshapes": false,
+      "children": [
+        {
+          "modelName": "surfaces",
+          "identifier": "surfaces:45187-25977542-dd2a-4cbd-b843-cef6832f1bbb",
+          "children": [
+            {
+              "modelName": "surface",
+              "name": "surface0",
+              "identifier": "surface:45192-25977542-dd2a-4cbd-b843-cef6832f1bbb",
+              "isMaterialIdentifierEnabled": true,
+              "materialIdentifier": "dependent_metallic_roughness_p_b_r_material_model:45183-25977542-dd2a-4cbd-b843-cef6832f1bbb",
+              "surfaceGroupIdentifier": "45193-25977542-dd2a-4cbd-b843-cef6832f1bbb"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

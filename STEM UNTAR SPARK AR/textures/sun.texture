@@ -1,0 +1,37 @@
+{
+  "modelName": "texture",
+  "name": "sun",
+  "identifier": "texture:33178-77b6b941-fb36-4922-9f73-c7d698a526cd",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "ada9a6d90ef7c3bec8e516770c782ead",
+  "assetLocator": "textures/sun.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "folder": "",
+  "hasOfflineMipmaps": false,
+  "height": 159,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 318,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "ada9a6d90ef7c3bec8e516770c782ead",
+      "colorCount": 256,
+      "detectedAlphaChannel": "no_alpha",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 7.833940491588913,
+      "pixelsHigh": 159,
+      "pixelsWide": 318
+    }
+  ]
+}

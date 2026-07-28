@@ -1,0 +1,37 @@
+{
+  "modelName": "texture",
+  "name": "H2O",
+  "identifier": "texture:3847-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "85d357553d82cf60b891994079c250f2",
+  "assetLocator": "textures/H2O.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "folder": "",
+  "hasOfflineMipmaps": false,
+  "height": 153,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 510,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "85d357553d82cf60b891994079c250f2",
+      "colorCount": 14900,
+      "detectedAlphaChannel": "no_alpha",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 8.358519662885241,
+      "pixelsHigh": 153,
+      "pixelsWide": 510
+    }
+  ]
+}

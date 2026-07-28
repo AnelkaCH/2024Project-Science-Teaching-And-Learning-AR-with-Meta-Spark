@@ -1,0 +1,2081 @@
+{
+  "modelName": "document",
+  "name": "Effect",
+  "identifier": "document:4-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+  "id": "2d726a8921cb54682b2e2bea371dc1a80",
+  "revision": "4056577b6b941fb3649229f73c7d698a526cd",
+  "version": {
+    "dev": 0,
+    "patch": 0,
+    "prod": 187
+  },
+  "creatorIdentifier": "com.facebook.arstudio.skylight",
+  "creatorPlatform": "windows",
+  "creatorFileVersion": {
+    "dev": 0,
+    "patch": 0,
+    "prod": 187
+  },
+  "cameraFar": 50,
+  "cameraNear": 0.009999999776482582,
+  "measurementUnit": "meter",
+  "objects": [
+    {
+      "modelName": "assets_config_model",
+      "identifier": "assets_config_model:195-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+      "categoriesOrder": [
+        "textures",
+        "playback_controllers",
+        "materials"
+      ]
+    }
+  ],
+  "projectFormatType": "separated_files",
+  "usingPatchesV2": true,
+  "visual_programming": {
+    "sectionFileLocation": "STEM UNTAR SPARK AR.patches"
+  },
+  "children": [
+    {
+      "modelName": "textures",
+      "identifier": "textures:10-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+      "defaultEnvironmentTexture": "environment_texture_model:1367-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+      "children": [
+        {
+          "sectionFileLocation": "textures/Hydrogen.texture"
+        },
+        {
+          "sectionFileLocation": "textures/Oxygen.texture"
+        },
+        {
+          "sectionFileLocation": "textures/DiffuseEnvironment.texture"
+        },
+        {
+          "sectionFileLocation": "textures/PreviewEnvironment.texture"
+        },
+        {
+          "sectionFileLocation": "textures/SpecularEnvironment.texture"
+        },
+        {
+          "modelName": "environment_texture_model",
+          "name": "Default environment texture",
+          "identifier": "environment_texture_model:1367-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "diffuseEnvironmentTextureIdentifier": "textures/DiffuseEnvironment.texture",
+          "previewEnvironmentTextureIdentifier": "textures/PreviewEnvironment.texture",
+          "specularEnvironmentTextureIdentifier": "textures/SpecularEnvironment.texture"
+        },
+        {
+          "sectionFileLocation": "textures/H2O.texture"
+        },
+        {
+          "sectionFileLocation": "textures/sparl.texture"
+        },
+        {
+          "sectionFileLocation": "textures/fire-texture-background_133982-388.texture"
+        },
+        {
+          "sectionFileLocation": "textures/Screenshot 2024-11-05 125234.texture"
+        },
+        {
+          "sectionFileLocation": "textures/ssss.texture"
+        },
+        {
+          "sectionFileLocation": "textures/moontext.texture"
+        },
+        {
+          "sectionFileLocation": "textures/jupitertext.texture"
+        },
+        {
+          "sectionFileLocation": "textures/suntext.texture"
+        },
+        {
+          "sectionFileLocation": "textures/planetcard.texture"
+        },
+        {
+          "sectionFileLocation": "textures/animal.texture"
+        },
+        {
+          "sectionFileLocation": "textures/plant.texture"
+        },
+        {
+          "sectionFileLocation": "textures/WhatsApp Image 2024-11-06 at 2.59.33 PM.texture"
+        },
+        {
+          "sectionFileLocation": "textures/sun.texture"
+        }
+      ]
+    },
+    {
+      "modelName": "materials",
+      "identifier": "materials:12-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+      "children": [
+        {
+          "sectionFileLocation": "objects/scene(2)/Orbita_2__0.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene(2)/Nuovo.1.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene(3)/Nuovo.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene(3)/Nuovo.3.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene(3)/Nuovo.2.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene(3)/Nuovo.4.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene(4)/Material.001.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene(4)/Material.003.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene(4)/Material.002.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene(4)/material_0.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene(4)/Material.004.material"
+        },
+        {
+          "sectionFileLocation": "materials/material0.material"
+        },
+        {
+          "sectionFileLocation": "objects/Sphere/Sphere_mat.material"
+        },
+        {
+          "sectionFileLocation": "materials/h2o.material"
+        },
+        {
+          "sectionFileLocation": "materials/earthtext.material"
+        },
+        {
+          "sectionFileLocation": "materials/moontext.material"
+        },
+        {
+          "sectionFileLocation": "materials/jupitertext.material"
+        },
+        {
+          "sectionFileLocation": "materials/suntext.material"
+        },
+        {
+          "sectionFileLocation": "objects/Cube/Cube_mat.material"
+        },
+        {
+          "sectionFileLocation": "materials/material1.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene/VesicleShell_Mat.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene/Cytoskeleton.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene/Nucleus_Shell.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene/Endoplasmic_Recticulum_Mat.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene/Mitochondria_Material.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene/Golgi_Apparatus_Mat.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene/Nutrients_Color.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene/Lysosome.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene/Material.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene/Vacoule.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene/Centrioles.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene(5)/Material0.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene(5)/Material.2.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene(5)/Material.3.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene(5)/Material.4.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene(5)/Material.5.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene(5)/Material.006.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene(5)/Material.007.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene(5)/Material.008.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene(5)/Material.011.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene(5)/Material.015.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene(5)/Material.016.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene(5)/Material.012.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene(5)/Material.019.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene(5)/Material.018.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene(5)/Material.020.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene(5)/Material.021.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene(5)/Material.023.material"
+        },
+        {
+          "sectionFileLocation": "materials/material2.material"
+        }
+      ]
+    },
+    {
+      "modelName": "prefabs",
+      "identifier": "prefabs:14-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+      "children": [
+        {
+          "modelName": "gltf",
+          "name": "Orbita_2__0",
+          "identifier": "gltf:2181-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "sourceIdentifier": "master3_d_object_model:2233-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "assetLocator": "2182-d726a892-1cb5-4682-b2e2-bea371dc1a80.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Protoni_2_Nuovo.1_0",
+          "identifier": "gltf:2223-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "sourceIdentifier": "master3_d_object_model:2233-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "assetLocator": "2224-d726a892-1cb5-4682-b2e2-bea371dc1a80.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Orbita_1_Nuovo_0",
+          "identifier": "gltf:2629-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "sourceIdentifier": "master3_d_object_model:3051-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "assetLocator": "2630-d726a892-1cb5-4682-b2e2-bea371dc1a80.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Sfera_1_0_Nuovo.3_0",
+          "identifier": "gltf:2643-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "sourceIdentifier": "master3_d_object_model:3051-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "assetLocator": "2644-d726a892-1cb5-4682-b2e2-bea371dc1a80.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Sfera_1_1_Nuovo.3_0",
+          "identifier": "gltf:2655-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "sourceIdentifier": "master3_d_object_model:3051-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "assetLocator": "2656-d726a892-1cb5-4682-b2e2-bea371dc1a80.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Orbita_2_Nuovo_0",
+          "identifier": "gltf:2669-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "sourceIdentifier": "master3_d_object_model:3051-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "assetLocator": "2670-d726a892-1cb5-4682-b2e2-bea371dc1a80.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Sfera_1_0_2_Nuovo.3_0",
+          "identifier": "gltf:2683-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "sourceIdentifier": "master3_d_object_model:3051-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "assetLocator": "2684-d726a892-1cb5-4682-b2e2-bea371dc1a80.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Sfera_1_1_2_Nuovo.3_0",
+          "identifier": "gltf:2695-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "sourceIdentifier": "master3_d_object_model:3051-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "assetLocator": "2696-d726a892-1cb5-4682-b2e2-bea371dc1a80.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Sfera_1_2_Nuovo.3_0",
+          "identifier": "gltf:2707-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "sourceIdentifier": "master3_d_object_model:3051-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "assetLocator": "2708-d726a892-1cb5-4682-b2e2-bea371dc1a80.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Sfera_1_3_Nuovo.3_0",
+          "identifier": "gltf:2719-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "sourceIdentifier": "master3_d_object_model:3051-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "assetLocator": "2720-d726a892-1cb5-4682-b2e2-bea371dc1a80.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Sfera_1_4_Nuovo.3_0",
+          "identifier": "gltf:2731-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "sourceIdentifier": "master3_d_object_model:3051-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "assetLocator": "2732-d726a892-1cb5-4682-b2e2-bea371dc1a80.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Sfera_1_5_Nuovo.3_0",
+          "identifier": "gltf:2743-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "sourceIdentifier": "master3_d_object_model:3051-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "assetLocator": "2744-d726a892-1cb5-4682-b2e2-bea371dc1a80.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Sfera_1_6_Nuovo.3_0",
+          "identifier": "gltf:2755-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "sourceIdentifier": "master3_d_object_model:3051-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "assetLocator": "2756-d726a892-1cb5-4682-b2e2-bea371dc1a80.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Sfera_1_7_Nuovo.3_0",
+          "identifier": "gltf:2767-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "sourceIdentifier": "master3_d_object_model:3051-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "assetLocator": "2768-d726a892-1cb5-4682-b2e2-bea371dc1a80.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Sfera_1_0_3_Nuovo.1_0",
+          "identifier": "gltf:2815-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "sourceIdentifier": "master3_d_object_model:3051-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "assetLocator": "2816-d726a892-1cb5-4682-b2e2-bea371dc1a80.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Sfera_1_1_3_Nuovo.1_0",
+          "identifier": "gltf:2827-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "sourceIdentifier": "master3_d_object_model:3051-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "assetLocator": "2828-d726a892-1cb5-4682-b2e2-bea371dc1a80.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Sfera_1_2_2_Nuovo.1_0",
+          "identifier": "gltf:2839-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "sourceIdentifier": "master3_d_object_model:3051-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "assetLocator": "2840-d726a892-1cb5-4682-b2e2-bea371dc1a80.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Sfera_1_3_2_Nuovo.1_0",
+          "identifier": "gltf:2851-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "sourceIdentifier": "master3_d_object_model:3051-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "assetLocator": "2852-d726a892-1cb5-4682-b2e2-bea371dc1a80.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Sfera_1_4_2_Nuovo.1_0",
+          "identifier": "gltf:2863-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "sourceIdentifier": "master3_d_object_model:3051-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "assetLocator": "2864-d726a892-1cb5-4682-b2e2-bea371dc1a80.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Sfera_1_5_2_Nuovo.1_0",
+          "identifier": "gltf:2875-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "sourceIdentifier": "master3_d_object_model:3051-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "assetLocator": "2876-d726a892-1cb5-4682-b2e2-bea371dc1a80.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Sfera_1_6_2_Nuovo.1_0",
+          "identifier": "gltf:2887-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "sourceIdentifier": "master3_d_object_model:3051-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "assetLocator": "2888-d726a892-1cb5-4682-b2e2-bea371dc1a80.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Sfera_1_7_2_Nuovo.1_0",
+          "identifier": "gltf:2899-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "sourceIdentifier": "master3_d_object_model:3051-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "assetLocator": "2900-d726a892-1cb5-4682-b2e2-bea371dc1a80.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Sfera_1_8_Nuovo.1_0",
+          "identifier": "gltf:2911-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "sourceIdentifier": "master3_d_object_model:3051-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "assetLocator": "2912-d726a892-1cb5-4682-b2e2-bea371dc1a80.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Sfera_1_9_Nuovo.1_0",
+          "identifier": "gltf:2923-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "sourceIdentifier": "master3_d_object_model:3051-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "assetLocator": "2924-d726a892-1cb5-4682-b2e2-bea371dc1a80.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Sfera_1_0_4_Nuovo.2_0",
+          "identifier": "gltf:2937-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "sourceIdentifier": "master3_d_object_model:3051-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "assetLocator": "2938-d726a892-1cb5-4682-b2e2-bea371dc1a80.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Sfera_1_1_4_Nuovo.2_0",
+          "identifier": "gltf:2949-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "sourceIdentifier": "master3_d_object_model:3051-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "assetLocator": "2950-d726a892-1cb5-4682-b2e2-bea371dc1a80.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Sfera_1_2_3_Nuovo.2_0",
+          "identifier": "gltf:2961-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "sourceIdentifier": "master3_d_object_model:3051-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "assetLocator": "2962-d726a892-1cb5-4682-b2e2-bea371dc1a80.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Sfera_1_3_3_Nuovo.2_0",
+          "identifier": "gltf:2973-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "sourceIdentifier": "master3_d_object_model:3051-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "assetLocator": "2974-d726a892-1cb5-4682-b2e2-bea371dc1a80.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Sfera_1_4_3_Nuovo.2_0",
+          "identifier": "gltf:2985-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "sourceIdentifier": "master3_d_object_model:3051-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "assetLocator": "2986-d726a892-1cb5-4682-b2e2-bea371dc1a80.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Sfera_1_5_3_Nuovo.2_0",
+          "identifier": "gltf:2997-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "sourceIdentifier": "master3_d_object_model:3051-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "assetLocator": "2998-d726a892-1cb5-4682-b2e2-bea371dc1a80.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Sfera_1_6_3_Nuovo.2_0",
+          "identifier": "gltf:3009-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "sourceIdentifier": "master3_d_object_model:3051-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "assetLocator": "3010-d726a892-1cb5-4682-b2e2-bea371dc1a80.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Sfera_1_7_3_Nuovo.2_0",
+          "identifier": "gltf:3021-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "sourceIdentifier": "master3_d_object_model:3051-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "assetLocator": "3022-d726a892-1cb5-4682-b2e2-bea371dc1a80.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Sfera_1_8_2_Nuovo.2_0",
+          "identifier": "gltf:3033-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "sourceIdentifier": "master3_d_object_model:3051-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "assetLocator": "3034-d726a892-1cb5-4682-b2e2-bea371dc1a80.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Sfera_1_9_2_Nuovo.2_0",
+          "identifier": "gltf:3045-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "sourceIdentifier": "master3_d_object_model:3051-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "assetLocator": "3046-d726a892-1cb5-4682-b2e2-bea371dc1a80.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Object_4",
+          "identifier": "gltf:5379-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "sourceIdentifier": "master3_d_object_model:5457-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "assetLocator": "5380-d726a892-1cb5-4682-b2e2-bea371dc1a80.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Object_6",
+          "identifier": "gltf:5391-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "sourceIdentifier": "master3_d_object_model:5457-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "assetLocator": "5392-d726a892-1cb5-4682-b2e2-bea371dc1a80.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Object_8",
+          "identifier": "gltf:5403-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "sourceIdentifier": "master3_d_object_model:5457-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "assetLocator": "5404-d726a892-1cb5-4682-b2e2-bea371dc1a80.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Object_10",
+          "identifier": "gltf:5415-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "sourceIdentifier": "master3_d_object_model:5457-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "assetLocator": "5416-d726a892-1cb5-4682-b2e2-bea371dc1a80.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Object_12",
+          "identifier": "gltf:5427-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "sourceIdentifier": "master3_d_object_model:5457-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "assetLocator": "5428-d726a892-1cb5-4682-b2e2-bea371dc1a80.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Object_14",
+          "identifier": "gltf:5439-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "sourceIdentifier": "master3_d_object_model:5457-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "assetLocator": "5440-d726a892-1cb5-4682-b2e2-bea371dc1a80.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Object_16",
+          "identifier": "gltf:5451-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "sourceIdentifier": "master3_d_object_model:5457-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "assetLocator": "5452-d726a892-1cb5-4682-b2e2-bea371dc1a80.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Sphere",
+          "identifier": "gltf:45189-25977542-dd2a-4cbd-b843-cef6832f1bbb",
+          "sourceIdentifier": "master3_d_object_model:45195-25977542-dd2a-4cbd-b843-cef6832f1bbb",
+          "assetLocator": "45190-25977542-dd2a-4cbd-b843-cef6832f1bbb.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cube",
+          "identifier": "gltf:39126-03d57b0b-175a-4080-bd57-f9556a596734",
+          "sourceIdentifier": "master3_d_object_model:39132-03d57b0b-175a-4080-bd57-f9556a596734",
+          "assetLocator": "39127-03d57b0b-175a-4080-bd57-f9556a596734.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Icosphere_0",
+          "identifier": "gltf:194282-03d57b0b-175a-4080-bd57-f9556a596734",
+          "sourceIdentifier": "master3_d_object_model:194914-03d57b0b-175a-4080-bd57-f9556a596734",
+          "assetLocator": "194283-03d57b0b-175a-4080-bd57-f9556a596734.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Icosphere_1",
+          "identifier": "gltf:194292-03d57b0b-175a-4080-bd57-f9556a596734",
+          "sourceIdentifier": "master3_d_object_model:194914-03d57b0b-175a-4080-bd57-f9556a596734",
+          "assetLocator": "194293-03d57b0b-175a-4080-bd57-f9556a596734.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Icosphere.001_0",
+          "identifier": "gltf:194304-03d57b0b-175a-4080-bd57-f9556a596734",
+          "sourceIdentifier": "master3_d_object_model:194914-03d57b0b-175a-4080-bd57-f9556a596734",
+          "assetLocator": "194305-03d57b0b-175a-4080-bd57-f9556a596734.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cube_0",
+          "identifier": "gltf:194316-03d57b0b-175a-4080-bd57-f9556a596734",
+          "sourceIdentifier": "master3_d_object_model:194914-03d57b0b-175a-4080-bd57-f9556a596734",
+          "assetLocator": "194317-03d57b0b-175a-4080-bd57-f9556a596734.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cube.001_0",
+          "identifier": "gltf:194328-03d57b0b-175a-4080-bd57-f9556a596734",
+          "sourceIdentifier": "master3_d_object_model:194914-03d57b0b-175a-4080-bd57-f9556a596734",
+          "assetLocator": "194329-03d57b0b-175a-4080-bd57-f9556a596734.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cube.002_0",
+          "identifier": "gltf:194340-03d57b0b-175a-4080-bd57-f9556a596734",
+          "sourceIdentifier": "master3_d_object_model:194914-03d57b0b-175a-4080-bd57-f9556a596734",
+          "assetLocator": "194341-03d57b0b-175a-4080-bd57-f9556a596734.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cube.005_0",
+          "identifier": "gltf:194352-03d57b0b-175a-4080-bd57-f9556a596734",
+          "sourceIdentifier": "master3_d_object_model:194914-03d57b0b-175a-4080-bd57-f9556a596734",
+          "assetLocator": "194353-03d57b0b-175a-4080-bd57-f9556a596734.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Vesicle_0",
+          "identifier": "gltf:194364-03d57b0b-175a-4080-bd57-f9556a596734",
+          "sourceIdentifier": "master3_d_object_model:194914-03d57b0b-175a-4080-bd57-f9556a596734",
+          "assetLocator": "194365-03d57b0b-175a-4080-bd57-f9556a596734.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cube.003_0",
+          "identifier": "gltf:194376-03d57b0b-175a-4080-bd57-f9556a596734",
+          "sourceIdentifier": "master3_d_object_model:194914-03d57b0b-175a-4080-bd57-f9556a596734",
+          "assetLocator": "194377-03d57b0b-175a-4080-bd57-f9556a596734.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cube.004_0",
+          "identifier": "gltf:194388-03d57b0b-175a-4080-bd57-f9556a596734",
+          "sourceIdentifier": "master3_d_object_model:194914-03d57b0b-175a-4080-bd57-f9556a596734",
+          "assetLocator": "194389-03d57b0b-175a-4080-bd57-f9556a596734.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cube.006_0",
+          "identifier": "gltf:194400-03d57b0b-175a-4080-bd57-f9556a596734",
+          "sourceIdentifier": "master3_d_object_model:194914-03d57b0b-175a-4080-bd57-f9556a596734",
+          "assetLocator": "194401-03d57b0b-175a-4080-bd57-f9556a596734.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cube.007_0",
+          "identifier": "gltf:194412-03d57b0b-175a-4080-bd57-f9556a596734",
+          "sourceIdentifier": "master3_d_object_model:194914-03d57b0b-175a-4080-bd57-f9556a596734",
+          "assetLocator": "194413-03d57b0b-175a-4080-bd57-f9556a596734.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cube.008_0",
+          "identifier": "gltf:194424-03d57b0b-175a-4080-bd57-f9556a596734",
+          "sourceIdentifier": "master3_d_object_model:194914-03d57b0b-175a-4080-bd57-f9556a596734",
+          "assetLocator": "194425-03d57b0b-175a-4080-bd57-f9556a596734.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cube.009_0",
+          "identifier": "gltf:194436-03d57b0b-175a-4080-bd57-f9556a596734",
+          "sourceIdentifier": "master3_d_object_model:194914-03d57b0b-175a-4080-bd57-f9556a596734",
+          "assetLocator": "194437-03d57b0b-175a-4080-bd57-f9556a596734.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Vesicle.001_0",
+          "identifier": "gltf:194448-03d57b0b-175a-4080-bd57-f9556a596734",
+          "sourceIdentifier": "master3_d_object_model:194914-03d57b0b-175a-4080-bd57-f9556a596734",
+          "assetLocator": "194449-03d57b0b-175a-4080-bd57-f9556a596734.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cube.010_0",
+          "identifier": "gltf:194460-03d57b0b-175a-4080-bd57-f9556a596734",
+          "sourceIdentifier": "master3_d_object_model:194914-03d57b0b-175a-4080-bd57-f9556a596734",
+          "assetLocator": "194461-03d57b0b-175a-4080-bd57-f9556a596734.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cube.011_0",
+          "identifier": "gltf:194472-03d57b0b-175a-4080-bd57-f9556a596734",
+          "sourceIdentifier": "master3_d_object_model:194914-03d57b0b-175a-4080-bd57-f9556a596734",
+          "assetLocator": "194473-03d57b0b-175a-4080-bd57-f9556a596734.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cube.012_0",
+          "identifier": "gltf:194484-03d57b0b-175a-4080-bd57-f9556a596734",
+          "sourceIdentifier": "master3_d_object_model:194914-03d57b0b-175a-4080-bd57-f9556a596734",
+          "assetLocator": "194485-03d57b0b-175a-4080-bd57-f9556a596734.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cube.013_0",
+          "identifier": "gltf:194496-03d57b0b-175a-4080-bd57-f9556a596734",
+          "sourceIdentifier": "master3_d_object_model:194914-03d57b0b-175a-4080-bd57-f9556a596734",
+          "assetLocator": "194497-03d57b0b-175a-4080-bd57-f9556a596734.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Vesicle.002_0",
+          "identifier": "gltf:194508-03d57b0b-175a-4080-bd57-f9556a596734",
+          "sourceIdentifier": "master3_d_object_model:194914-03d57b0b-175a-4080-bd57-f9556a596734",
+          "assetLocator": "194509-03d57b0b-175a-4080-bd57-f9556a596734.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cube.014_0",
+          "identifier": "gltf:194520-03d57b0b-175a-4080-bd57-f9556a596734",
+          "sourceIdentifier": "master3_d_object_model:194914-03d57b0b-175a-4080-bd57-f9556a596734",
+          "assetLocator": "194521-03d57b0b-175a-4080-bd57-f9556a596734.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cube.015_0",
+          "identifier": "gltf:194532-03d57b0b-175a-4080-bd57-f9556a596734",
+          "sourceIdentifier": "master3_d_object_model:194914-03d57b0b-175a-4080-bd57-f9556a596734",
+          "assetLocator": "194533-03d57b0b-175a-4080-bd57-f9556a596734.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cube.016_0",
+          "identifier": "gltf:194544-03d57b0b-175a-4080-bd57-f9556a596734",
+          "sourceIdentifier": "master3_d_object_model:194914-03d57b0b-175a-4080-bd57-f9556a596734",
+          "assetLocator": "194545-03d57b0b-175a-4080-bd57-f9556a596734.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Icosphere.003_0",
+          "identifier": "gltf:194556-03d57b0b-175a-4080-bd57-f9556a596734",
+          "sourceIdentifier": "master3_d_object_model:194914-03d57b0b-175a-4080-bd57-f9556a596734",
+          "assetLocator": "194557-03d57b0b-175a-4080-bd57-f9556a596734.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cube.019_0",
+          "identifier": "gltf:194568-03d57b0b-175a-4080-bd57-f9556a596734",
+          "sourceIdentifier": "master3_d_object_model:194914-03d57b0b-175a-4080-bd57-f9556a596734",
+          "assetLocator": "194569-03d57b0b-175a-4080-bd57-f9556a596734.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cube.017_0",
+          "identifier": "gltf:194580-03d57b0b-175a-4080-bd57-f9556a596734",
+          "sourceIdentifier": "master3_d_object_model:194914-03d57b0b-175a-4080-bd57-f9556a596734",
+          "assetLocator": "194581-03d57b0b-175a-4080-bd57-f9556a596734.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cube.018_0",
+          "identifier": "gltf:194592-03d57b0b-175a-4080-bd57-f9556a596734",
+          "sourceIdentifier": "master3_d_object_model:194914-03d57b0b-175a-4080-bd57-f9556a596734",
+          "assetLocator": "194593-03d57b0b-175a-4080-bd57-f9556a596734.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cube.020_0",
+          "identifier": "gltf:194604-03d57b0b-175a-4080-bd57-f9556a596734",
+          "sourceIdentifier": "master3_d_object_model:194914-03d57b0b-175a-4080-bd57-f9556a596734",
+          "assetLocator": "194605-03d57b0b-175a-4080-bd57-f9556a596734.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cube.021_0",
+          "identifier": "gltf:194616-03d57b0b-175a-4080-bd57-f9556a596734",
+          "sourceIdentifier": "master3_d_object_model:194914-03d57b0b-175a-4080-bd57-f9556a596734",
+          "assetLocator": "194617-03d57b0b-175a-4080-bd57-f9556a596734.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cube.022_0",
+          "identifier": "gltf:194628-03d57b0b-175a-4080-bd57-f9556a596734",
+          "sourceIdentifier": "master3_d_object_model:194914-03d57b0b-175a-4080-bd57-f9556a596734",
+          "assetLocator": "194629-03d57b0b-175a-4080-bd57-f9556a596734.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cube.023_0",
+          "identifier": "gltf:194640-03d57b0b-175a-4080-bd57-f9556a596734",
+          "sourceIdentifier": "master3_d_object_model:194914-03d57b0b-175a-4080-bd57-f9556a596734",
+          "assetLocator": "194641-03d57b0b-175a-4080-bd57-f9556a596734.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cube.024_0",
+          "identifier": "gltf:194652-03d57b0b-175a-4080-bd57-f9556a596734",
+          "sourceIdentifier": "master3_d_object_model:194914-03d57b0b-175a-4080-bd57-f9556a596734",
+          "assetLocator": "194653-03d57b0b-175a-4080-bd57-f9556a596734.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cube.025_0",
+          "identifier": "gltf:194668-03d57b0b-175a-4080-bd57-f9556a596734",
+          "sourceIdentifier": "master3_d_object_model:194914-03d57b0b-175a-4080-bd57-f9556a596734",
+          "assetLocator": "194669-03d57b0b-175a-4080-bd57-f9556a596734.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cube.026_0",
+          "identifier": "gltf:194680-03d57b0b-175a-4080-bd57-f9556a596734",
+          "sourceIdentifier": "master3_d_object_model:194914-03d57b0b-175a-4080-bd57-f9556a596734",
+          "assetLocator": "194681-03d57b0b-175a-4080-bd57-f9556a596734.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cube.027_0",
+          "identifier": "gltf:194692-03d57b0b-175a-4080-bd57-f9556a596734",
+          "sourceIdentifier": "master3_d_object_model:194914-03d57b0b-175a-4080-bd57-f9556a596734",
+          "assetLocator": "194693-03d57b0b-175a-4080-bd57-f9556a596734.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Vesicle.003_0",
+          "identifier": "gltf:194704-03d57b0b-175a-4080-bd57-f9556a596734",
+          "sourceIdentifier": "master3_d_object_model:194914-03d57b0b-175a-4080-bd57-f9556a596734",
+          "assetLocator": "194705-03d57b0b-175a-4080-bd57-f9556a596734.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cube.028_0",
+          "identifier": "gltf:194716-03d57b0b-175a-4080-bd57-f9556a596734",
+          "sourceIdentifier": "master3_d_object_model:194914-03d57b0b-175a-4080-bd57-f9556a596734",
+          "assetLocator": "194717-03d57b0b-175a-4080-bd57-f9556a596734.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Vesicle.004_0",
+          "identifier": "gltf:194728-03d57b0b-175a-4080-bd57-f9556a596734",
+          "sourceIdentifier": "master3_d_object_model:194914-03d57b0b-175a-4080-bd57-f9556a596734",
+          "assetLocator": "194729-03d57b0b-175a-4080-bd57-f9556a596734.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cube.029_0",
+          "identifier": "gltf:194740-03d57b0b-175a-4080-bd57-f9556a596734",
+          "sourceIdentifier": "master3_d_object_model:194914-03d57b0b-175a-4080-bd57-f9556a596734",
+          "assetLocator": "194741-03d57b0b-175a-4080-bd57-f9556a596734.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cube.030_0",
+          "identifier": "gltf:194752-03d57b0b-175a-4080-bd57-f9556a596734",
+          "sourceIdentifier": "master3_d_object_model:194914-03d57b0b-175a-4080-bd57-f9556a596734",
+          "assetLocator": "194753-03d57b0b-175a-4080-bd57-f9556a596734.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cube.031_0",
+          "identifier": "gltf:194764-03d57b0b-175a-4080-bd57-f9556a596734",
+          "sourceIdentifier": "master3_d_object_model:194914-03d57b0b-175a-4080-bd57-f9556a596734",
+          "assetLocator": "194765-03d57b0b-175a-4080-bd57-f9556a596734.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cube.032_0",
+          "identifier": "gltf:194776-03d57b0b-175a-4080-bd57-f9556a596734",
+          "sourceIdentifier": "master3_d_object_model:194914-03d57b0b-175a-4080-bd57-f9556a596734",
+          "assetLocator": "194777-03d57b0b-175a-4080-bd57-f9556a596734.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cube.033_0",
+          "identifier": "gltf:194788-03d57b0b-175a-4080-bd57-f9556a596734",
+          "sourceIdentifier": "master3_d_object_model:194914-03d57b0b-175a-4080-bd57-f9556a596734",
+          "assetLocator": "194789-03d57b0b-175a-4080-bd57-f9556a596734.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cube.034_0",
+          "identifier": "gltf:194800-03d57b0b-175a-4080-bd57-f9556a596734",
+          "sourceIdentifier": "master3_d_object_model:194914-03d57b0b-175a-4080-bd57-f9556a596734",
+          "assetLocator": "194801-03d57b0b-175a-4080-bd57-f9556a596734.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cube.035_0",
+          "identifier": "gltf:194812-03d57b0b-175a-4080-bd57-f9556a596734",
+          "sourceIdentifier": "master3_d_object_model:194914-03d57b0b-175a-4080-bd57-f9556a596734",
+          "assetLocator": "194813-03d57b0b-175a-4080-bd57-f9556a596734.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Icosphere.002_0",
+          "identifier": "gltf:194824-03d57b0b-175a-4080-bd57-f9556a596734",
+          "sourceIdentifier": "master3_d_object_model:194914-03d57b0b-175a-4080-bd57-f9556a596734",
+          "assetLocator": "194825-03d57b0b-175a-4080-bd57-f9556a596734.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Icosphere.004_0",
+          "identifier": "gltf:194836-03d57b0b-175a-4080-bd57-f9556a596734",
+          "sourceIdentifier": "master3_d_object_model:194914-03d57b0b-175a-4080-bd57-f9556a596734",
+          "assetLocator": "194837-03d57b0b-175a-4080-bd57-f9556a596734.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cube.036_0",
+          "identifier": "gltf:194848-03d57b0b-175a-4080-bd57-f9556a596734",
+          "sourceIdentifier": "master3_d_object_model:194914-03d57b0b-175a-4080-bd57-f9556a596734",
+          "assetLocator": "194849-03d57b0b-175a-4080-bd57-f9556a596734.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cube.037_0",
+          "identifier": "gltf:194860-03d57b0b-175a-4080-bd57-f9556a596734",
+          "sourceIdentifier": "master3_d_object_model:194914-03d57b0b-175a-4080-bd57-f9556a596734",
+          "assetLocator": "194861-03d57b0b-175a-4080-bd57-f9556a596734.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Icosphere.005_0",
+          "identifier": "gltf:194872-03d57b0b-175a-4080-bd57-f9556a596734",
+          "sourceIdentifier": "master3_d_object_model:194914-03d57b0b-175a-4080-bd57-f9556a596734",
+          "assetLocator": "194873-03d57b0b-175a-4080-bd57-f9556a596734.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cube.038_0",
+          "identifier": "gltf:194884-03d57b0b-175a-4080-bd57-f9556a596734",
+          "sourceIdentifier": "master3_d_object_model:194914-03d57b0b-175a-4080-bd57-f9556a596734",
+          "assetLocator": "194885-03d57b0b-175a-4080-bd57-f9556a596734.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cylinder_0",
+          "identifier": "gltf:194896-03d57b0b-175a-4080-bd57-f9556a596734",
+          "sourceIdentifier": "master3_d_object_model:194914-03d57b0b-175a-4080-bd57-f9556a596734",
+          "assetLocator": "194897-03d57b0b-175a-4080-bd57-f9556a596734.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cylinder.001_0",
+          "identifier": "gltf:194908-03d57b0b-175a-4080-bd57-f9556a596734",
+          "sourceIdentifier": "master3_d_object_model:194914-03d57b0b-175a-4080-bd57-f9556a596734",
+          "assetLocator": "194909-03d57b0b-175a-4080-bd57-f9556a596734.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Dinding Sel_Material_0",
+          "identifier": "gltf:315401-03d57b0b-175a-4080-bd57-f9556a596734",
+          "sourceIdentifier": "master3_d_object_model:315643-03d57b0b-175a-4080-bd57-f9556a596734",
+          "assetLocator": "315402-03d57b0b-175a-4080-bd57-f9556a596734.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Membran Sel_Material.001_0",
+          "identifier": "gltf:315417-03d57b0b-175a-4080-bd57-f9556a596734",
+          "sourceIdentifier": "master3_d_object_model:315643-03d57b0b-175a-4080-bd57-f9556a596734",
+          "assetLocator": "315418-03d57b0b-175a-4080-bd57-f9556a596734.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Nukleolus_Material.002_0",
+          "identifier": "gltf:315429-03d57b0b-175a-4080-bd57-f9556a596734",
+          "sourceIdentifier": "master3_d_object_model:315643-03d57b0b-175a-4080-bd57-f9556a596734",
+          "assetLocator": "315430-03d57b0b-175a-4080-bd57-f9556a596734.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cube_Material.003_0",
+          "identifier": "gltf:315441-03d57b0b-175a-4080-bd57-f9556a596734",
+          "sourceIdentifier": "master3_d_object_model:315643-03d57b0b-175a-4080-bd57-f9556a596734",
+          "assetLocator": "315442-03d57b0b-175a-4080-bd57-f9556a596734.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cube.005_Material.003_0",
+          "identifier": "gltf:315453-03d57b0b-175a-4080-bd57-f9556a596734",
+          "sourceIdentifier": "master3_d_object_model:315643-03d57b0b-175a-4080-bd57-f9556a596734",
+          "assetLocator": "315454-03d57b0b-175a-4080-bd57-f9556a596734.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cube.008_Material.003_0",
+          "identifier": "gltf:315465-03d57b0b-175a-4080-bd57-f9556a596734",
+          "sourceIdentifier": "master3_d_object_model:315643-03d57b0b-175a-4080-bd57-f9556a596734",
+          "assetLocator": "315466-03d57b0b-175a-4080-bd57-f9556a596734.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Torus.005_Material.004_0",
+          "identifier": "gltf:315477-03d57b0b-175a-4080-bd57-f9556a596734",
+          "sourceIdentifier": "master3_d_object_model:315643-03d57b0b-175a-4080-bd57-f9556a596734",
+          "assetLocator": "315478-03d57b0b-175a-4080-bd57-f9556a596734.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Nukleolus.001_Material.006_0",
+          "identifier": "gltf:315489-03d57b0b-175a-4080-bd57-f9556a596734",
+          "sourceIdentifier": "master3_d_object_model:315643-03d57b0b-175a-4080-bd57-f9556a596734",
+          "assetLocator": "315490-03d57b0b-175a-4080-bd57-f9556a596734.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Nukleolus.002_Material.007_0",
+          "identifier": "gltf:315501-03d57b0b-175a-4080-bd57-f9556a596734",
+          "sourceIdentifier": "master3_d_object_model:315643-03d57b0b-175a-4080-bd57-f9556a596734",
+          "assetLocator": "315502-03d57b0b-175a-4080-bd57-f9556a596734.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Nukleolus.003_Material.008_0",
+          "identifier": "gltf:315513-03d57b0b-175a-4080-bd57-f9556a596734",
+          "sourceIdentifier": "master3_d_object_model:315643-03d57b0b-175a-4080-bd57-f9556a596734",
+          "assetLocator": "315514-03d57b0b-175a-4080-bd57-f9556a596734.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Nukleolus.005_Material.011_0",
+          "identifier": "gltf:315525-03d57b0b-175a-4080-bd57-f9556a596734",
+          "sourceIdentifier": "master3_d_object_model:315643-03d57b0b-175a-4080-bd57-f9556a596734",
+          "assetLocator": "315526-03d57b0b-175a-4080-bd57-f9556a596734.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Nukleolus.006_Material.015_0",
+          "identifier": "gltf:315537-03d57b0b-175a-4080-bd57-f9556a596734",
+          "sourceIdentifier": "master3_d_object_model:315643-03d57b0b-175a-4080-bd57-f9556a596734",
+          "assetLocator": "315538-03d57b0b-175a-4080-bd57-f9556a596734.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Nukleolus.007_Material.015_0",
+          "identifier": "gltf:315549-03d57b0b-175a-4080-bd57-f9556a596734",
+          "sourceIdentifier": "master3_d_object_model:315643-03d57b0b-175a-4080-bd57-f9556a596734",
+          "assetLocator": "315550-03d57b0b-175a-4080-bd57-f9556a596734.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cube.001_Material.016_0",
+          "identifier": "gltf:315561-03d57b0b-175a-4080-bd57-f9556a596734",
+          "sourceIdentifier": "master3_d_object_model:315643-03d57b0b-175a-4080-bd57-f9556a596734",
+          "assetLocator": "315562-03d57b0b-175a-4080-bd57-f9556a596734.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cube.001_Material.012_0",
+          "identifier": "gltf:315571-03d57b0b-175a-4080-bd57-f9556a596734",
+          "sourceIdentifier": "master3_d_object_model:315643-03d57b0b-175a-4080-bd57-f9556a596734",
+          "assetLocator": "315572-03d57b0b-175a-4080-bd57-f9556a596734.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Nukleolus.008_Material.019_0",
+          "identifier": "gltf:315583-03d57b0b-175a-4080-bd57-f9556a596734",
+          "sourceIdentifier": "master3_d_object_model:315643-03d57b0b-175a-4080-bd57-f9556a596734",
+          "assetLocator": "315584-03d57b0b-175a-4080-bd57-f9556a596734.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Nukleolus.008_Material.018_0",
+          "identifier": "gltf:315593-03d57b0b-175a-4080-bd57-f9556a596734",
+          "sourceIdentifier": "master3_d_object_model:315643-03d57b0b-175a-4080-bd57-f9556a596734",
+          "assetLocator": "315594-03d57b0b-175a-4080-bd57-f9556a596734.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Nukleolus.008_Material.020_0",
+          "identifier": "gltf:315603-03d57b0b-175a-4080-bd57-f9556a596734",
+          "sourceIdentifier": "master3_d_object_model:315643-03d57b0b-175a-4080-bd57-f9556a596734",
+          "assetLocator": "315604-03d57b0b-175a-4080-bd57-f9556a596734.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Nukleolus.008_Material.021_0",
+          "identifier": "gltf:315613-03d57b0b-175a-4080-bd57-f9556a596734",
+          "sourceIdentifier": "master3_d_object_model:315643-03d57b0b-175a-4080-bd57-f9556a596734",
+          "assetLocator": "315614-03d57b0b-175a-4080-bd57-f9556a596734.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Membran Sel.001_Material.023_0",
+          "identifier": "gltf:315625-03d57b0b-175a-4080-bd57-f9556a596734",
+          "sourceIdentifier": "master3_d_object_model:315643-03d57b0b-175a-4080-bd57-f9556a596734",
+          "assetLocator": "315626-03d57b0b-175a-4080-bd57-f9556a596734.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Dinding Sel.001_Material_0",
+          "identifier": "gltf:315637-03d57b0b-175a-4080-bd57-f9556a596734",
+          "sourceIdentifier": "master3_d_object_model:315643-03d57b0b-175a-4080-bd57-f9556a596734",
+          "assetLocator": "315638-03d57b0b-175a-4080-bd57-f9556a596734.glb",
+          "isExternalAsset": false
+        }
+      ]
+    },
+    {
+      "modelName": "3_d_objects_model",
+      "identifier": "3_d_objects_model:16-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+      "children": [
+        {
+          "sectionFileLocation": "objects/scene(2)/scene.object"
+        },
+        {
+          "sectionFileLocation": "objects/scene(3)/scene.object"
+        },
+        {
+          "sectionFileLocation": "objects/scene(4)/scene.object"
+        },
+        {
+          "sectionFileLocation": "objects/Sphere/Sphere.object"
+        },
+        {
+          "sectionFileLocation": "objects/Cube/Cube.object"
+        },
+        {
+          "sectionFileLocation": "objects/scene/scene.object"
+        },
+        {
+          "sectionFileLocation": "objects/scene(5)/scene.object"
+        }
+      ]
+    },
+    {
+      "sectionFileLocation": "STEM UNTAR SPARK AR.scene"
+    },
+    {
+      "modelName": "layers",
+      "identifier": "layers:20-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+      "children": [
+        {
+          "modelName": "layer",
+          "name": "layer0",
+          "identifier": "layer:82-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "color": "0xff8c72ca"
+        }
+      ]
+    },
+    {
+      "modelName": "animations_model",
+      "identifier": "animations_model:22-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+      "children": [
+        {
+          "sectionFileLocation": "objects/scene(2)/CINEMA_4D_Principale.animation"
+        },
+        {
+          "sectionFileLocation": "objects/scene(3)/CINEMA_4D_Principale0.animation"
+        }
+      ]
+    },
+    {
+      "modelName": "asset_collections_model",
+      "identifier": "asset_collections_model:24-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+      "children": [
+        {
+          "modelName": "asset_collection_model",
+          "name": "1 - Hydrogen",
+          "identifier": "asset_collection_model:2269-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "applicationData": [],
+          "assetDataHash": "0d699a4c0100c62c025be07d53acd754",
+          "assetLocator": "objects/scene(2)/scene.gltf",
+          "authoringTool": "Sketchfab-12.64.0",
+          "excludeDuringExport": true,
+          "externalSourceLocator": "sparkarstudio://arlibrary/sketchfab/three_d_object/935403a0bb8b4a398ec34f6a29e65225",
+          "isExternalAsset": true,
+          "master3DInstanceSourceHash": "0d699a4c0100c62c025be07d53acd754",
+          "children": [
+            {
+              "modelName": "unsupportedFeatures",
+              "name": "unsupportedFeatures0",
+              "identifier": "unsupportedFeatures:2267-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+              "namesForFeatureType": {
+                "Animation": [
+                  "CINEMA_4D_Principale"
+                ],
+                "Material": [
+                  "Orbita_2__0",
+                  "Nuovo.1"
+                ]
+              }
+            },
+            {
+              "modelName": "file_reference_model",
+              "name": "scene",
+              "identifier": "file_reference_model:2271-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+              "sourceIdentifier": "asset_collection_model:2269-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+              "assetDataHash": "ced33f3b7378952aea0b70e60dc68bce",
+              "assetLocator": "objects/scene(2)/scene.bin",
+              "excludeDuringExport": true,
+              "isExternalAsset": true
+            }
+          ]
+        },
+        {
+          "modelName": "asset_collection_model",
+          "name": "8 - Oxygen",
+          "identifier": "asset_collection_model:3087-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "applicationData": [],
+          "assetDataHash": "b3ed39312739979a5161f7ff65befac9",
+          "assetLocator": "objects/scene(3)/scene.gltf",
+          "authoringTool": "Sketchfab-12.65.0",
+          "excludeDuringExport": true,
+          "externalSourceLocator": "sparkarstudio://arlibrary/sketchfab/three_d_object/f0a87eabf23d4453b6c2117a734a5bce",
+          "isExternalAsset": true,
+          "master3DInstanceSourceHash": "b3ed39312739979a5161f7ff65befac9",
+          "children": [
+            {
+              "modelName": "unsupportedFeatures",
+              "name": "unsupportedFeatures0",
+              "identifier": "unsupportedFeatures:3085-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+              "namesForFeatureType": {
+                "Animation": [
+                  "CINEMA_4D_Principale"
+                ],
+                "Material": [
+                  "Nuovo.2",
+                  "Nuovo",
+                  "Nuovo.3",
+                  "Nuovo.1"
+                ]
+              }
+            },
+            {
+              "modelName": "file_reference_model",
+              "name": "scene",
+              "identifier": "file_reference_model:3089-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+              "sourceIdentifier": "asset_collection_model:3087-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+              "assetDataHash": "f0116c16d4c95729e2c3727b33c7f2ca",
+              "assetLocator": "objects/scene(3)/scene.bin",
+              "excludeDuringExport": true,
+              "isExternalAsset": true
+            }
+          ]
+        },
+        {
+          "modelName": "asset_collection_model",
+          "name": "Water molecule (молекула воды)",
+          "identifier": "asset_collection_model:5461-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "applicationData": [],
+          "assetDataHash": "b5430ac0b8e34210c0a82cf9ae7ff8d1",
+          "assetLocator": "objects/scene(4)/scene.gltf",
+          "authoringTool": "Sketchfab-12.68.0",
+          "excludeDuringExport": true,
+          "externalSourceLocator": "sparkarstudio://arlibrary/sketchfab/three_d_object/27d7dd1eb523467e8570ee778d46877d",
+          "isExternalAsset": true,
+          "master3DInstanceSourceHash": "b5430ac0b8e34210c0a82cf9ae7ff8d1",
+          "children": [
+            {
+              "modelName": "unsupportedFeatures",
+              "name": "unsupportedFeatures0",
+              "identifier": "unsupportedFeatures:5459-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+              "namesForFeatureType": {
+                "Material": [
+                  "Material.001",
+                  "Material.003",
+                  "Material.002",
+                  "material_0",
+                  "Material.004"
+                ]
+              }
+            },
+            {
+              "modelName": "file_reference_model",
+              "name": "scene",
+              "identifier": "file_reference_model:5463-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+              "sourceIdentifier": "asset_collection_model:5461-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+              "assetDataHash": "3e830dd0a9a69396d9628445e2e68bd3",
+              "assetLocator": "objects/scene(4)/scene.bin",
+              "excludeDuringExport": true,
+              "isExternalAsset": true
+            }
+          ]
+        },
+        {
+          "modelName": "asset_collection_model",
+          "name": "Sphere",
+          "identifier": "asset_collection_model:45199-25977542-dd2a-4cbd-b843-cef6832f1bbb",
+          "applicationData": [],
+          "assetDataHash": "7e8d8f8c734a0363ab13d18948c7ad7f",
+          "assetLocator": "objects/Sphere/Sphere.gltf",
+          "authoringTool": "Khronos glTF Blender I/O v0.9.36",
+          "excludeDuringExport": true,
+          "externalSourceLocator": "sparkarstudio://arlibrary/facebook/three_d_object/2462000140790485",
+          "isExternalAsset": true,
+          "master3DInstanceSourceHash": "7e8d8f8c734a0363ab13d18948c7ad7f",
+          "children": [
+            {
+              "modelName": "unsupportedFeatures",
+              "name": "unsupportedFeatures0",
+              "identifier": "unsupportedFeatures:45197-25977542-dd2a-4cbd-b843-cef6832f1bbb",
+              "namesForFeatureType": {
+                "Material": [
+                  "Sphere_mat"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "modelName": "asset_collection_model",
+          "name": "Cube",
+          "identifier": "asset_collection_model:39136-03d57b0b-175a-4080-bd57-f9556a596734",
+          "applicationData": [],
+          "assetDataHash": "b06ff0edb84f86248f316ddb7cdc4d2c",
+          "assetLocator": "objects/Cube/Cube.gltf",
+          "authoringTool": "Khronos glTF Blender I/O v0.9.36",
+          "excludeDuringExport": true,
+          "externalSourceLocator": "sparkarstudio://arlibrary/facebook/three_d_object/706274919865017",
+          "isExternalAsset": true,
+          "master3DInstanceSourceHash": "b06ff0edb84f86248f316ddb7cdc4d2c",
+          "children": [
+            {
+              "modelName": "unsupportedFeatures",
+              "name": "unsupportedFeatures0",
+              "identifier": "unsupportedFeatures:39134-03d57b0b-175a-4080-bd57-f9556a596734",
+              "namesForFeatureType": {
+                "Material": [
+                  "Cube_mat"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "modelName": "asset_collection_model",
+          "name": "Animal Cell",
+          "identifier": "asset_collection_model:194918-03d57b0b-175a-4080-bd57-f9556a596734",
+          "applicationData": [],
+          "assetDataHash": "b9b546a36f994aefc7c82dc10b7b3485",
+          "assetLocator": "objects/scene/scene.gltf",
+          "authoringTool": "Sketchfab-12.65.0",
+          "excludeDuringExport": true,
+          "externalSourceLocator": "sparkarstudio://arlibrary/sketchfab/three_d_object/abaa9a651c834cdaa67072b32fb0024f",
+          "isExternalAsset": true,
+          "master3DInstanceSourceHash": "b9b546a36f994aefc7c82dc10b7b3485",
+          "children": [
+            {
+              "modelName": "unsupportedFeatures",
+              "name": "unsupportedFeatures0",
+              "identifier": "unsupportedFeatures:194916-03d57b0b-175a-4080-bd57-f9556a596734",
+              "namesForFeatureType": {
+                "Material": [
+                  "VesicleShell_Mat",
+                  "Endoplasmic_Recticulum_Mat",
+                  "Cytoskeleton",
+                  "Nucleus_Shell",
+                  "Lysosome",
+                  "Mitochondria_Material",
+                  "Vacoule",
+                  "Golgi_Apparatus_Mat",
+                  "Nutrients_Color",
+                  "Material",
+                  "Centrioles"
+                ]
+              }
+            },
+            {
+              "modelName": "file_reference_model",
+              "name": "scene",
+              "identifier": "file_reference_model:194920-03d57b0b-175a-4080-bd57-f9556a596734",
+              "sourceIdentifier": "asset_collection_model:194918-03d57b0b-175a-4080-bd57-f9556a596734",
+              "assetDataHash": "bfea3a72a875490aaaca5c9e114e5cbb",
+              "assetLocator": "objects/scene/scene.bin",
+              "excludeDuringExport": true,
+              "isExternalAsset": true
+            }
+          ]
+        },
+        {
+          "modelName": "asset_collection_model",
+          "name": "[Free] 3D Plant Cell Model",
+          "identifier": "asset_collection_model:315647-03d57b0b-175a-4080-bd57-f9556a596734",
+          "applicationData": [],
+          "assetDataHash": "06bb4319dda5cb13b0b0d0b16ac15c46",
+          "assetLocator": "objects/scene(5)/scene.gltf",
+          "authoringTool": "Sketchfab-16.31.0",
+          "excludeDuringExport": true,
+          "externalSourceLocator": "sparkarstudio://arlibrary/sketchfab/three_d_object/9835283b3cf54753ba1c5be0b903253f",
+          "isExternalAsset": true,
+          "master3DInstanceSourceHash": "06bb4319dda5cb13b0b0d0b16ac15c46",
+          "children": [
+            {
+              "modelName": "unsupportedFeatures",
+              "name": "unsupportedFeatures0",
+              "identifier": "unsupportedFeatures:315645-03d57b0b-175a-4080-bd57-f9556a596734",
+              "namesForFeatureType": {
+                "Material": [
+                  "Material",
+                  "Material.001",
+                  "Material.002",
+                  "Material.003",
+                  "Material.004",
+                  "Material.006",
+                  "Material.007",
+                  "Material.008",
+                  "Material.011",
+                  "Material.015",
+                  "Material.016",
+                  "Material.012",
+                  "Material.019",
+                  "Material.018",
+                  "Material.020",
+                  "Material.021",
+                  "Material.023"
+                ]
+              }
+            },
+            {
+              "modelName": "file_reference_model",
+              "name": "scene",
+              "identifier": "file_reference_model:315649-03d57b0b-175a-4080-bd57-f9556a596734",
+              "sourceIdentifier": "asset_collection_model:315647-03d57b0b-175a-4080-bd57-f9556a596734",
+              "assetDataHash": "fabc564e432f2f9c0aac5268cdcad9e9",
+              "assetLocator": "objects/scene(5)/scene.bin",
+              "excludeDuringExport": true,
+              "isExternalAsset": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modelName": "scripts_model",
+      "identifier": "scripts_model:36-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+      "children": [
+        {
+          "modelName": "script_bridging_variables_model",
+          "identifier": "script_bridging_variables_model:38-d726a892-1cb5-4682-b2e2-bea371dc1a80"
+        }
+      ]
+    },
+    {
+      "modelName": "bundled_packages_model",
+      "identifier": "bundled_packages_model:44-d726a892-1cb5-4682-b2e2-bea371dc1a80"
+    },
+    {
+      "modelName": "exportConfig",
+      "identifier": "exportConfig:48-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+      "children": [
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:1343-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "accuracy": "best"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:1345-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "accuracy": "best",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:1347-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "accuracy": "best",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:1352-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "accuracy": "best"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:1354-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "accuracy": "best",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:1356-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "accuracy": "best",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:1361-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "accuracy": "best"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:1363-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "accuracy": "best",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:1365-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "accuracy": "best",
+          "targetFormat": 1
+        }
+      ]
+    },
+    {
+      "modelName": "manifest",
+      "identifier": "manifest:50-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+      "additionalEnabledChanges": null,
+      "assistantAppIDs": [
+        "2320137961422959"
+      ],
+      "assistantClientToken": null,
+      "assistantIncludeInDevelopmentArtifacts": false,
+      "assistantQuickTestEnabled": true,
+      "assistantStorageEnabled": true,
+      "assistantUseWit": false,
+      "audioEnableAudioGraphComponents": false,
+      "audioEnableAudioTransformationsApi": false,
+      "bodyTracking3DMinVersion": 181,
+      "bodyTrackingMinVersion": 101,
+      "cameraControlDefaultCameraFacing": "unspecified",
+      "dynamicTextAltitude": false,
+      "dynamicTextDate": false,
+      "dynamicTextLocation": false,
+      "dynamicTextTranslation": false,
+      "dynamicTextWeather": false,
+      "effectDisablesAudioPreview": false,
+      "effectDisablesMicrophone": false,
+      "effectForceAsyncScripting": false,
+      "effectForcesSynchronousScripting": false,
+      "effectHasAmbientAudio": false,
+      "effectHasAudioGraphApi": false,
+      "effectHasTriggeredAudio": false,
+      "effectImageAntiAliasingEdgeSharpness": 0.5,
+      "effectImageAntiAliasingEdgeThreshold": 0.5,
+      "effectImageAntiAliasingTechnique": "fxaa",
+      "effectPbrClearcoatMaterialExtension": false,
+      "effectPbrIorMaterialExtension": false,
+      "effectPbrSheenMaterialExtension": false,
+      "effectPbrSpecularMaterialExtension": false,
+      "effectPbrTransmissionMaterialExtension": false,
+      "effectUses3DModelAssets": false,
+      "effectUses4KTextures": false,
+      "effectUsesAheadOfTimeShaders": false,
+      "effectUsesAnimationPlaybackController": true,
+      "effectUsesAnimationScriptingModule": false,
+      "effectUsesAppLauncher": false,
+      "effectUsesAssistant": false,
+      "effectUsesAudio": false,
+      "effectUsesAudioLegacyMicFork": false,
+      "effectUsesAudioMixer": false,
+      "effectUsesAudioSpatialEmitter": false,
+      "effectUsesAudioTimestamps": false,
+      "effectUsesAugmentAdjacency": false,
+      "effectUsesAugmentControl": false,
+      "effectUsesAugmentGrouping": false,
+      "effectUsesAugmentSharableConfig": false,
+      "effectUsesAugmentSizeControl": false,
+      "effectUsesAutomaticAlphaSort": false,
+      "effectUsesAutomaticInstructions": true,
+      "effectUsesBlockModulesConfigExtras": false,
+      "effectUsesBlocks": false,
+      "effectUsesBlocksDownloadable": false,
+      "effectUsesBlocksScripting": false,
+      "effectUsesBodyTracking": false,
+      "effectUsesBodyTracking2DKeyPoints": false,
+      "effectUsesBoundingBoxScripting": false,
+      "effectUsesBoundingBoxUtilities": false,
+      "effectUsesCameraControl": false,
+      "effectUsesCameraInfoScriptingModule": false,
+      "effectUsesCameraShare": false,
+      "effectUsesComponentEvaluation": true,
+      "effectUsesComposedLocally": false,
+      "effectUsesComposedMaterial": false,
+      "effectUsesControllers": false,
+      "effectUsesCustomEngineSDK": false,
+      "effectUsesCustomFonts": false,
+      "effectUsesCustomMaterial": false,
+      "effectUsesCustomMaterialAndShaderCodeAsset": false,
+      "effectUsesCustomPipeline": false,
+      "effectUsesDSP": false,
+      "effectUsesDate": false,
+      "effectUsesDebugPatch": false,
+      "effectUsesDeltaTime": false,
+      "effectUsesDepth": false,
+      "effectUsesDepthData": false,
+      "effectUsesDepthShaderRead": false,
+      "effectUsesDeviceMotion": false,
+      "effectUsesDiagnosticsScriptingModule": false,
+      "effectUsesDirectionalLightEstimation": false,
+      "effectUsesDspAudioAnalyzer": false,
+      "effectUsesDspBitCrusher": false,
+      "effectUsesDspCompressor": false,
+      "effectUsesDspDelay": false,
+      "effectUsesDspDenoiser": false,
+      "effectUsesDspDistortion": false,
+      "effectUsesDspEnergyMeter": false,
+      "effectUsesDspModulator": false,
+      "effectUsesDspParametricEqualizer": false,
+      "effectUsesDspPitchShifter": false,
+      "effectUsesDspReverb": false,
+      "effectUsesDspVocoder": false,
+      "effectUsesDynamicCapabilities": false,
+      "effectUsesDynamicInstructions": false,
+      "effectUsesDynamicScriptProperties": false,
+      "effectUsesDynamicText": false,
+      "effectUsesEmbeddedVideo": false,
+      "effectUsesEnvironmentTexturePatch": false,
+      "effectUsesExperienceControl": false,
+      "effectUsesExternalBlocks": false,
+      "effectUsesExternalFonts": false,
+      "effectUsesExternalMusicSelection": false,
+      "effectUsesExternalTextures": false,
+      "effectUsesExternalTexturesAudio": false,
+      "effectUsesExternalVideo": false,
+      "effectUsesExternalVideoStream": false,
+      "effectUsesFBA": false,
+      "effectUsesFaceDistortion": false,
+      "effectUsesFaceExpression52Blendshapes": false,
+      "effectUsesFaceExpressionExperimental": false,
+      "effectUsesFaceExpressionFitting": false,
+      "effectUsesFaceExtraction": false,
+      "effectUsesFaceTracker": false,
+      "effectUsesFaceTracker3D": false,
+      "effectUsesFaceTracker96": false,
+      "effectUsesFaceTrackingScripting2D": false,
+      "effectUsesFaceTrueScale": false,
+      "effectUsesFaceWave": false,
+      "effectUsesFacialExpressionRecognition": false,
+      "effectUsesFacialGestureRecognition": false,
+      "effectUsesFieldOfView": false,
+      "effectUsesFingerTracking": false,
+      "effectUsesFonts": true,
+      "effectUsesFormFactor": false,
+      "effectUsesFrameBrightness": false,
+      "effectUsesGalleryPicker": false,
+      "effectUsesGenerativeAI": false,
+      "effectUsesGenericML": false,
+      "effectUsesGlobalTransform": false,
+      "effectUsesGlslEs300Features": false,
+      "effectUsesGltfPbrShader": false,
+      "effectUsesGraphQL": false,
+      "effectUsesHairSegmentation": false,
+      "effectUsesHalfFloatRenderPass": false,
+      "effectUsesHandGestureKeypoints": false,
+      "effectUsesHandTracker": false,
+      "effectUsesHapticFeedback": false,
+      "effectUsesHeadsetInfo": false,
+      "effectUsesHmdNetworkingAPI": false,
+      "effectUsesI18n": false,
+      "effectUsesIdTracker": false,
+      "effectUsesImageAntiAliasing": false,
+      "effectUsesImageAssets": false,
+      "effectUsesImageBasedLighting": true,
+      "effectUsesInstruction": true,
+      "effectUsesIntent": false,
+      "effectUsesInterEffectLinking": false,
+      "effectUsesInternalScriptingAPI": false,
+      "effectUsesIrisTracking": false,
+      "effectUsesJavaScript": false,
+      "effectUsesJavaScriptRuntimeForPatches": false,
+      "effectUsesJavaScriptScripting": false,
+      "effectUsesJavaScriptShaders": false,
+      "effectUsesJavascriptToPatchesBridging": false,
+      "effectUsesLayers": false,
+      "effectUsesLocale": false,
+      "effectUsesLocation": false,
+      "effectUsesLocationAirportData": false,
+      "effectUsesMaterialsScriptingModule": false,
+      "effectUsesMaxParticipants": false,
+      "effectUsesMicrophone": false,
+      "effectUsesMicrophoneV2": false,
+      "effectUsesMovingTargetTracking": true,
+      "effectUsesMultipeer": false,
+      "effectUsesMultipeerMessaging": false,
+      "effectUsesMultiplane": false,
+      "effectUsesMultiplayer": false,
+      "effectUsesMultipleRenderTargets": false,
+      "effectUsesMusic": false,
+      "effectUsesNativeUIControl": false,
+      "effectUsesNativeUIControlEditableText": false,
+      "effectUsesNativeUIControlEditableTextExitCB": false,
+      "effectUsesNativeUIControlPicker": false,
+      "effectUsesNativeUIControlPickerRemoteImages": false,
+      "effectUsesNativeUIControlRawTextInput": false,
+      "effectUsesNativeUIControlSlider": false,
+      "effectUsesNativeUIControlSliderTypeColor": false,
+      "effectUsesNetworking": false,
+      "effectUsesNetworkingScriptAPI": false,
+      "effectUsesObjectCapture": false,
+      "effectUsesObjectTracking": false,
+      "effectUsesOpusCodec": false,
+      "effectUsesOverlayOutput": false,
+      "effectUsesPBRMaterial": true,
+      "effectUsesParticipant": false,
+      "effectUsesParticleSystem": true,
+      "effectUsesPeerOutput": false,
+      "effectUsesPeerVideoStream": false,
+      "effectUsesPermissions": false,
+      "effectUsesPersistence": false,
+      "effectUsesPersistenceCaptureScope": false,
+      "effectUsesPersistenceSharedScope": false,
+      "effectUsesPersonalization": false,
+      "effectUsesPhysics": false,
+      "effectUsesPhysicsSync": false,
+      "effectUsesPlaneNormal": false,
+      "effectUsesPlaneTrackerTrackTextureAPI": false,
+      "effectUsesPlatformEvents": false,
+      "effectUsesPlatformEventsDocumentScoped": false,
+      "effectUsesPlatformFunctions": false,
+      "effectUsesPlatformTextures": false,
+      "effectUsesPlaybackInfo": false,
+      "effectUsesPortalPose": false,
+      "effectUsesPreciseLocation": false,
+      "effectUsesPrefabScriptingModule": false,
+      "effectUsesPreviewCaptureOutputs": false,
+      "effectUsesQPL": false,
+      "effectUsesRGBCameraTexture": false,
+      "effectUsesRTRMapping": false,
+      "effectUsesRandomScriptingModule": false,
+      "effectUsesRawWristbandData": false,
+      "effectUsesReactiveScriptingModule": false,
+      "effectUsesRealScaleEstimation": false,
+      "effectUsesRealScaleEstimationWithFallback": false,
+      "effectUsesRecognition": false,
+      "effectUsesRecognitionTracking": false,
+      "effectUsesRecordedSignalsForSamplers": false,
+      "effectUsesRemote3DModels": false,
+      "effectUsesRenderPasses": false,
+      "effectUsesRenderSettingsHigh": false,
+      "effectUsesRingTryOn": false,
+      "effectUsesRotateVector": false,
+      "effectUsesSceneDepth": false,
+      "effectUsesSceneDepthWithFallback": false,
+      "effectUsesSceneObjectTags": false,
+      "effectUsesSceneRenderPassResolutionAspectRatio": false,
+      "effectUsesSceneScriptingModule": false,
+      "effectUsesScriptAnalytics": false,
+      "effectUsesScriptingDynamicInstantiation": false,
+      "effectUsesSegmentation": false,
+      "effectUsesSegmentationType": false,
+      "effectUsesShaderCode": false,
+      "effectUsesShadows": false,
+      "effectUsesSkinSegmentation": false,
+      "effectUsesSkinSmoothing": false,
+      "effectUsesSpaceSetup": false,
+      "effectUsesSpatialGesture": false,
+      "effectUsesSpatialHandTracking": false,
+      "effectUsesSplitScreen": false,
+      "effectUsesStaticTargetTracking": false,
+      "effectUsesStyleTransfer": false,
+      "effectUsesSupportedOrientations": false,
+      "effectUsesSvg": false,
+      "effectUsesSyncDomApis": false,
+      "effectUsesTextAssets": false,
+      "effectUsesTextCaptions": false,
+      "effectUsesTextExtrusion": true,
+      "effectUsesTexturesScriptingModule": false,
+      "effectUsesTimeScriptingModule": false,
+      "effectUsesToasterTracking": false,
+      "effectUsesTouchGestures": true,
+      "effectUsesTwoDimensionalText": false,
+      "effectUsesTypeScript": false,
+      "effectUsesUiCore": false,
+      "effectUsesUiPlanarBackend": false,
+      "effectUsesUnifiedTargetTracking": true,
+      "effectUsesUnitsScriptingModule": false,
+      "effectUsesVariadicMath": true,
+      "effectUsesVertexTextureFetch": false,
+      "effectUsesVisualShaders": false,
+      "effectUsesVisualShadersSdf": false,
+      "effectUsesVoiceInteraction": false,
+      "effectUsesWarpPostProcessor": false,
+      "effectUsesWarpPreProcessor": false,
+      "effectUsesWarpSmoothing": true,
+      "effectUsesWeather": false,
+      "effectUsesWebPTexture": false,
+      "effectUsesWebsockets": false,
+      "effectUsesWorldTracker": false,
+      "effectUsesWorldTrackerEnvironmentLight": false,
+      "effectUsesWorldTrackerJSAPI": false,
+      "effectUsesWorldTrackingWorldMap": false,
+      "effectUsesWorldUnderstanding": false,
+      "effectUsesWorldUnderstandingV2": false,
+      "effectUsesWriteableSignalSource": false,
+      "engineSDKVersion": "187.0",
+      "externalTexturesWhitelistedDomains": null,
+      "faceExpressionFittingMinVersion": 15,
+      "faceExpressionFittingRTRRetargetingMinVersion": 1,
+      "faceTrackerIsEnabled": false,
+      "faceTrackerMaxFaces": 1,
+      "faceTrackerMinVersion": 10,
+      "facewaveMinVersion": 1,
+      "hairSegmentationMinVersion": 1,
+      "handTrackerMaxHands": 2,
+      "handTrackerMinVersion": 3,
+      "instructionFindAnImageBackCameraEnabled": true,
+      "instructionFindAnImageFrontCameraEnabled": true,
+      "instructionFindBodyBackCameraEnabled": true,
+      "instructionFindBodyFrontCameraEnabled": true,
+      "instructionFindFaceBackCameraEnabled": true,
+      "instructionFindFaceFrontCameraEnabled": true,
+      "instructionFindHandBackCameraEnabled": true,
+      "instructionFindHandFrontCameraEnabled": true,
+      "instructionFindPersonBackCameraEnabled": true,
+      "instructionFindPersonFrontCameraEnabled": true,
+      "instructionTokens": null,
+      "interEffectLinkingEffectIds": null,
+      "internalScriptingAPIDelay": false,
+      "internalScriptingAPIDeprecatedParticles": false,
+      "internalScriptingAPIEventStream": false,
+      "internalScriptingAPIExperimentalCameraInfo": false,
+      "internalScriptingAPIGlobalTransform": false,
+      "manuallyEnabledItemsIds": [],
+      "maxParticipantsCount": 0,
+      "multiclassSegmentationMinVersion": 3004,
+      "objectTrackerMaxObjects": 1,
+      "optionalCapabilityItemIds": [],
+      "persistenceWhitelistedKeys": null,
+      "personalizationSpecialOccasion": "none",
+      "platformUsage": {},
+      "recognitionMinVersion": 2,
+      "ringTryOnMinVersion": 1,
+      "sceneDepthMinVersion": 1,
+      "sceneDepthWithFallbackMinVersion": 1,
+      "segmentationMinVersion": 2,
+      "shaderPostProcessor": false,
+      "shaderPreProcessor": false,
+      "supportsLandscape": false,
+      "supportsPortrait": true,
+      "supportsWildcardDomainsWhitelisting": false,
+      "touchGesturesSupportsLongPress": true,
+      "touchGesturesSupportsPan": false,
+      "touchGesturesSupportsPinch": false,
+      "touchGesturesSupportsRawTouch": false,
+      "touchGesturesSupportsRotate": true,
+      "touchGesturesSupportsTap": true,
+      "whitelistedDomains": null,
+      "witAppId": null,
+      "witClientToken": null,
+      "worldTrackerBackCameraEnabled": true,
+      "worldTrackerFrontCameraEnabled": true,
+      "worldTrackerMode": "plane",
+      "worldTrackerUsesFaceTracker": false
+    },
+    {
+      "modelName": "asset_attributions_model",
+      "identifier": "asset_attributions_model:52-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+      "children": [
+        {
+          "modelName": "asset_attribution_model",
+          "identifier": "asset_attribution_model:2273-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "assetAuthor": "giacomoalbani",
+          "assetModelIdentifier": "asset_collection_model:2269-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "assetTitle": "1 - Hydrogen",
+          "assetURLString": "https://sketchfab.com/3d-models/1-hydrogen-935403a0bb8b4a398ec34f6a29e65225",
+          "licenseModelIdentifier": "license_model:1369-d726a892-1cb5-4682-b2e2-bea371dc1a80"
+        },
+        {
+          "modelName": "asset_attribution_model",
+          "identifier": "asset_attribution_model:3091-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "assetAuthor": "giacomoalbani",
+          "assetModelIdentifier": "asset_collection_model:3087-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "assetTitle": "8 - Oxygen",
+          "assetURLString": "https://sketchfab.com/3d-models/8-oxygen-f0a87eabf23d4453b6c2117a734a5bce",
+          "licenseModelIdentifier": "license_model:1369-d726a892-1cb5-4682-b2e2-bea371dc1a80"
+        },
+        {
+          "modelName": "asset_attribution_model",
+          "identifier": "asset_attribution_model:5465-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "assetAuthor": "decay_dance",
+          "assetModelIdentifier": "asset_collection_model:5461-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "assetTitle": "Water molecule (молекула воды)",
+          "assetURLString": "https://sketchfab.com/3d-models/water-molecule-27d7dd1eb523467e8570ee778d46877d",
+          "licenseModelIdentifier": "license_model:1369-d726a892-1cb5-4682-b2e2-bea371dc1a80"
+        },
+        {
+          "modelName": "asset_attribution_model",
+          "identifier": "asset_attribution_model:45201-25977542-dd2a-4cbd-b843-cef6832f1bbb",
+          "assetAuthor": "Spark AR Assets",
+          "assetModelIdentifier": "asset_collection_model:45199-25977542-dd2a-4cbd-b843-cef6832f1bbb",
+          "assetTitle": "Sphere Primitive",
+          "assetURLString": "",
+          "licenseModelIdentifier": "license_model:17864-25977542-dd2a-4cbd-b843-cef6832f1bbb"
+        },
+        {
+          "modelName": "asset_attribution_model",
+          "identifier": "asset_attribution_model:39138-03d57b0b-175a-4080-bd57-f9556a596734",
+          "assetAuthor": "Spark AR Assets",
+          "assetModelIdentifier": "asset_collection_model:39136-03d57b0b-175a-4080-bd57-f9556a596734",
+          "assetTitle": "Cube Primitive",
+          "assetURLString": "",
+          "licenseModelIdentifier": "license_model:17864-25977542-dd2a-4cbd-b843-cef6832f1bbb"
+        },
+        {
+          "modelName": "asset_attribution_model",
+          "identifier": "asset_attribution_model:194922-03d57b0b-175a-4080-bd57-f9556a596734",
+          "assetAuthor": "Forged1212",
+          "assetModelIdentifier": "asset_collection_model:194918-03d57b0b-175a-4080-bd57-f9556a596734",
+          "assetTitle": "Animal Cell",
+          "assetURLString": "https://sketchfab.com/3d-models/animal-cell-abaa9a651c834cdaa67072b32fb0024f",
+          "licenseModelIdentifier": "license_model:1369-d726a892-1cb5-4682-b2e2-bea371dc1a80"
+        },
+        {
+          "modelName": "asset_attribution_model",
+          "identifier": "asset_attribution_model:315651-03d57b0b-175a-4080-bd57-f9556a596734",
+          "assetAuthor": "Novsred - Biology",
+          "assetModelIdentifier": "asset_collection_model:315647-03d57b0b-175a-4080-bd57-f9556a596734",
+          "assetTitle": "[Free] 3D Plant Cell Model",
+          "assetURLString": "https://sketchfab.com/3d-models/free-3d-plant-cell-model-9835283b3cf54753ba1c5be0b903253f",
+          "licenseModelIdentifier": "license_model:1369-d726a892-1cb5-4682-b2e2-bea371dc1a80"
+        }
+      ]
+    },
+    {
+      "modelName": "licenses_model",
+      "identifier": "licenses_model:54-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+      "children": [
+        {
+          "modelName": "license_model",
+          "name": "Creative Commons Attribution",
+          "identifier": "license_model:1369-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+          "linkURLString": "http://creativecommons.org/licenses/by/4.0/",
+          "slug": "by"
+        },
+        {
+          "modelName": "license_model",
+          "name": "Creative Commons Attribution 4.0",
+          "identifier": "license_model:17864-25977542-dd2a-4cbd-b843-cef6832f1bbb",
+          "linkURLString": "https://creativecommons.org/licenses/by/4.0/",
+          "slug": "CC BY 4.0"
+        }
+      ]
+    },
+    {
+      "modelName": "playback_controllers_model",
+      "identifier": "playback_controllers_model:56-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+      "children": [
+        {
+          "sectionFileLocation": "animations/animationPlaybackController0.animationctrl"
+        }
+      ]
+    },
+    {
+      "modelName": "target",
+      "identifier": "target:60-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+      "targetPlatforms": [
+        "instagram",
+        "facebook"
+      ],
+      "targetUseCases": [
+        "STORIES"
+      ]
+    },
+    {
+      "modelName": "scripting_config_model",
+      "identifier": "scripting_config_model:68-d726a892-1cb5-4682-b2e2-bea371dc1a80",
+      "forceStrictModeCompilation": true
+    },
+    {
+      "modelName": "graphicsConfig",
+      "identifier": "graphicsConfig:88-d726a892-1cb5-4682-b2e2-bea371dc1a80"
+    },
+    {
+      "modelName": "videos_model",
+      "identifier": "videos_model:185-d726a892-1cb5-4682-b2e2-bea371dc1a80"
+    },
+    {
+      "modelName": "input_mappings_model",
+      "identifier": "input_mappings_model:189-d726a892-1cb5-4682-b2e2-bea371dc1a80"
+    },
+    {
+      "modelName": "fonts",
+      "identifier": "fonts:1754-03d57b0b-175a-4080-bd57-f9556a596734",
+      "children": [
+        {
+          "modelName": "local_font_model",
+          "name": "Facebook Sans Bold",
+          "identifier": "local_font_model:64642-03d57b0b-175a-4080-bd57-f9556a596734",
+          "assetLocator": "64643-03d57b0b-175a-4080-bd57-f9556a596734",
+          "fontIdentity": "com.facebook.editor.fonts.facebooksans-bold",
+          "isExternalAsset": false
+        }
+      ]
+    }
+  ]
+}
