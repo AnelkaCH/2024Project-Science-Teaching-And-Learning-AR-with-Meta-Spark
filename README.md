@@ -2,7 +2,8 @@
 
 An augmented reality application built with Meta Spark Studio that turns printed science materials into interactive 3D learning experiences. Developed as a team project for the **UNTAR Meta Spark AR Competition 2024**, where it placed **1st**.
 
-> Meta Spark Studio was shut down by Meta in January 2025. The platform no longer exists, so the original project files cannot be run or exported. This repository preserves screenshots and documentation of the work.
+> Update (July 2026): Meta Spark Studio shut down in January 2025, so this project cannot be opened or run anymore. But we found some of the original project files saved on a laptop. They cannot be opened either, but they show how the project was built and are kept here for the record.
+
 
 ## What It Does
 
@@ -24,6 +25,19 @@ When a biology picture is scanned (an animal cell or a plant cell) a labelled 3D
 - **3D Object Import** = pre-built 3D models loaded into the Spark environment
 - **Animations** = keyframe and scripted animations for the molecule bonding and gravity sequences
 - **Particle Effects** = used to add visual polish to the simulations
+
+## Project Files
+
+We built this project as three separate parts. I did the chemistry part, and my teammates did physics and biology. When they finished their parts, they sent me their files so I could put everything together into one final project.
+
+These are the files we found:
+
+- **phys module.arprojpkg** - the physics part, before it was combined
+- **plant and animal cell.arprojpkg** - the biology part, before it was combined
+- **STEM UNTAR SPARK AR.arprojpkg** - an early version of the combined project
+- **WOA! STEM AR.arprojpkg** - the last and final version of the combined project
+
+These files cannot be opened since the app that made them does not exist anymore. But we are keeping them here so people can see how the project came together, and so we do not lose them completely.
 
 ## What I Learned
 
